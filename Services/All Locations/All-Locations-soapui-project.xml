@@ -4,7 +4,7 @@ import com.eviware.soapui.support.*
 import groovy.json.JsonSlurper
 
 servicePath = "/jenkins/Services/"
-servicePath = "C:/Target Automation/Services/"
+//servicePath = "C:/Target Automation/Services/"
 
 String filename 
 String errPath = servicePath + "Output/Errors/"
