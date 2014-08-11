@@ -1,0 +1,17 @@
+s_title
+s_dpci
+i_tcin
+i_departmentId
+i_storeId
+s_channelAvailabilityCode
+s_onlinePrice
+s_onlinePriceText
+s_onlineAvailabilityCode
+s_currentStorePrice
+s_originalStorePrice
+s_priceCurrency
+s_storeAvailabilityCode
+s_images
+s_locations
+i_averageRating
+i_reviewCount

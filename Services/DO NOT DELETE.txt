@@ -1,0 +1,273 @@
+//JOptionPane.showMessageDialog(null, Response );
+
+//import jxl.*; 
+
+	/*
+	Workbook workbook = Workbook.getWorkbook( new File( servicePath + "RedSky.xls" ))
+	Sheet sheet = workbook.getSheet( var_Service ); 
+
+	rowcount = sheet.getRows();
+	colcount = sheet.getColumns();
+	// ----------------------------------
+	// Collect APIs count to test
+	// ----------------------------------
+	WebServiceProps = testRunner.testCase.getTestStepByName( var_Service + " DS" );
+	for (iRow = 1; iRow < rowcount;iRow++)
+	{
+		for (iCol = 0; iCol < colcount;iCol++)
+		{
+			sCell= sheet.getCell(iCol,0)
+			columnName = sCell.getContents()
+			sCell= sheet.getCell(iCol,iRow)
+			sCellContent = sCell.getContents()
+			switch(columnName)
+			{
+				case "Ignore":
+					WebServiceProps.setPropertyValue( "Ignore", sCellContent );
+					Ignore = WebServiceProps.getPropertyValue( "Ignore" );
+					break;
+				case "store":WebServiceProps.setPropertyValue( "store", sCellContent );break;
+			}
+		}
+		if( Ignore != "Yes" )
+	*/
+
+import javax.swing.*;
+import com.eviware.soapui.support.*
+import groovy.json.JsonSlurper
+
+servicePath = "C:/Target Automation/Services/"
+
+String filename 
+filename = servicePath + "Output/Errors/Failure.log"  
+boolean fileSuccessfullyDeleted =  new File(filename).delete()
+//----------------------------------------------------------------
+validate_Populated_Response_Values( "All Locations", "locations" )
+//----------------------------------------------------------------
+String errPath = servicePath + "Output/Errors/"
+filename = errPath + "Failure.log" 
+File f = new File( filename );
+if(f.exists()){
+	String MainErrfilename = errPath + "All_Failures.html"
+	String fileContent = ReadFile( filename )
+	String [] arrValues = fileContent.split(",")
+	String varLine, varLines, firstChar
+	varLines = ""
+	if( fileContent.length() > 0 )
+	{
+		for( intArrayIndex = 0; intArrayIndex < arrValues.length; intArrayIndex++ )
+		{
+			varLine = arrValues[intArrayIndex];
+			firstChar = varLine[0]
+			if( firstChar == "~" ) varLines = varLines + "<hr>";
+			if( firstChar == "~" || firstChar == "(" || firstChar == "[" )
+			{
+				varLine = varLine.substring( 1, varLine.length() );
+			}
+			switch(firstChar)
+			{
+				case "~":	varLine = "<a style='font-family:Candara;font-size:20px;color:Orange;'>" + varLine + "</a><br>"; break;
+				case "(":	varLine = "<a style='font-family:Candara;font-size:15px;color:blue;'>" + varLine + "</a><br>"; break; 
+				case "[":	varLine = "<a style='font-family:Candara;font-size:15px;color:purple;'>" + varLine + "</a><br>"; break;
+				default: varLine = "<a style='font-family:Candara;font-size:15px;color:#005A1A;'>" + varLine + "</a><br>"; break;
+			}
+			varLines = varLines + varLine
+		}
+		AddTextToFile( MainErrfilename, varLines, true )
+	}
+}
+//=====================================================================================
+public void validate_Populated_Response_Values( String var_Service, String var_Branch ) 
+//=====================================================================================
+{
+	try
+	{
+		String Ignore;
+		String testResult
+		String id = "", 
+			  shortDisplayName = "", 
+			  geoLocation = ""
+
+		String varLines = copyFileToArray( servicePath + "RedSky.srv", var_Service )
+		//JOptionPane.showMessageDialog( null, "varLines: " + varLines );
+
+		String [] arrLines = varLines.split("~")
+		String [] arrColumns;
+		String [] arrParams;
+		String [] arrServiceValues;
+		
+		Integer iArrayColumnIndex;
+		String varColumns, varColumn;
+		String varValues, varValue; 
+		String varParams, varParam;
+
+		varValues = ""
+		//---------------------------
+		// Collect Columns and Values
+		//---------------------------
+		for( iArrayIndex = 0; iArrayIndex < arrLines.length-1; iArrayIndex++ )
+		{
+			varValue = arrLines[iArrayIndex]	
+			//JOptionPane.showMessageDialog( null, "varValue: " + varValue );
+			if( iArrayIndex == 0 ) arrColumns = varValue.split(",");
+			else if( iArrayIndex > 0) varValues = varValues + varValue + "~";
+		}
+		varValues = varValues.substring(0, varValues.length() - 1 )
+		//JOptionPane.showMessageDialog( null, "varValues: " + varValues );
+		arrServiceValues = varValues.split("~");
+		//JOptionPane.showMessageDialog( null, "varColumns: " + varColumns );
+		//--------------------
+		// Populate Parameters
+		//--------------------
+		WebServiceProps = testRunner.testCase.getTestStepByName( var_Service + " DS" );
+		for( iArrayColumnIndex = 0; iArrayColumnIndex < arrColumns.length; iArrayColumnIndex++ ){
+			varColumn = arrColumns[iArrayColumnIndex]
+			for( iArrayIndex = 0; iArrayIndex < arrServiceValues.length; iArrayIndex++ )
+			{
+				varParams = arrServiceValues[iArrayIndex]
+				arrParams = varParams.split(",")
+				varParam = arrParams[iArrayColumnIndex]
+				switch(varColumn)
+				{
+					case "Ignore": 
+						WebServiceProps.setPropertyValue( "Ignore", varParam );
+						Ignore = WebServiceProps.getPropertyValue( "Ignore" );
+						break;
+					case "version":WebServiceProps.setPropertyValue( "version", varParam );break;
+				}
+			}
+			if( Ignore != "Yes" )
+			{ 
+				//-----------------
+				// Collect Response
+				//-----------------
+				testRunner.runTestStepByName(var_Service);
+				String Response = testRunner.testCase.testSteps[ var_Service ].testRequest.response.contentAsString
+				//--------------------------
+				// Collect Items to validate
+				//--------------------------
+				String var_Items = ReadFile( servicePath + var_Service + "/" + var_Branch + " - nodes to validate.txt" )
+				def arr_Items = var_Items.split(",")
+				Integer int_Index = 0
+				def arr_subItem, var_Element, var_subItem_Type, subItemName, s_subItem, i_subItem, l_subItem
+				//--------------------------------
+				// Split JSON per specified Branch
+				//--------------------------------
+				Object result = new JsonSlurper().parseText( Response )
+				Map jsonResult = (Map) result;
+				List Branches = (List) jsonResult.get(var_Branch);
+				Branches.each 
+				{ 
+					Branch ->
+					//---------------------------------------
+					// Loop through User defined check points
+					//---------------------------------------
+					while(int_Index < arr_Items.length )
+					{
+						//-----------------------------------------------------------
+						// Collect Node Type (Integer, String or  List) and Node Name
+						//-----------------------------------------------------------
+						var_Element = arr_Items[int_Index].trim()
+						arr_subItem = var_Element.split("_")
+						var_subItem_Type = arr_subItem[0]
+						subItemName = arr_subItem[1]
+						int_Index = int_Index + 1
+						//-----------------------------------
+						// ignore reporting on specified Node
+						//-----------------------------------
+						if( var_Element[0] != "'" )
+						{
+							Object fieldValue = Branch.get(subItemName)
+							if( subItemName == "id" ) id = fieldValue;
+							if( subItemName == "shortDisplayName" ) shortDisplayName = fieldValue;
+							if( subItemName == "geoLocation" ) geoLocation = fieldValue;
+			   			}
+					}	
+				   	testResult = CheckResponseValues( id, shortDisplayName, geoLocation )
+					if( testResult.length() > 0 )
+			   		{
+				   		testResultArray = testResult.split("~")
+						AddTextToFile( servicePath + "Output/Errors/Failure.log", "~Service (" + var_Service + ")", true )
+						for( intArrayIndex = 0; intArrayIndex < testResultArray.length; intArrayIndex++)
+						{
+							AddTextToFile( servicePath + "Output/Errors/Failure.log", testResultArray[intArrayIndex], true )
+						}	
+				   	}
+					int_Index = 0;
+				}
+			}
+		}		
+	}	
+	catch(err)
+	{
+		JOptionPane.showMessageDialog( null, err.message );
+	}
+}
+//===========================================================================
+public static void AddTextToFile( String sFile, String sText, boolean bAppend )
+//===========================================================================
+{
+    	FileWriter fstream = new FileWriter( sFile, bAppend );
+     BufferedWriter out = new BufferedWriter( fstream );
+     out.write(sText);
+     out.newLine();   
+     out.close();
+}
+//===========================================
+public static String ReadFile( String sFile )
+//===========================================
+{
+    	File rfile = new File(sFile); 
+    	BufferedReader reader = null; 
+	reader = new BufferedReader(new FileReader(rfile));
+	
+	String sLine, var_Lines, arr_Lines
+	var_Lines = ""
+    	sLine = reader.readLine()
+  	while ( sLine != null ) 
+    	{
+	    	var_Lines = var_Lines + sLine + ","
+	    	sLine = reader.readLine()
+	} 
+	var_Lines = var_Lines.substring(0, var_Lines.length() - 1 )
+	return var_Lines 
+}
+//==================================================================
+public static String copyFileToArray( String sFile, String service )
+//==================================================================
+{
+    	File rfile = new File(sFile); 
+    	BufferedReader reader = null; 
+	reader = new BufferedReader(new FileReader(rfile));
+	String sLine, varLines, arrLines
+	Boolean bCollect = false
+	varLines = ""
+    	sLine = reader.readLine()
+  	while ( sLine != null ){
+    		if( bCollect == true ) varLines = varLines + sLine + "~";
+    		if( sLine == service ) bCollect = true;
+    		if( sLine[0] == "-" ) {bCollect = false;	break;}
+	    	sLine = reader.readLine();
+	} 
+	varLines = varLines.substring(0, varLines.length() - 1 )
+	return varLines; 
+}
+//================================================
+String CheckResponseValues(	String id, 
+					     String shortDisplayName, 
+					     String geoLocation )
+//================================================
+{
+	String testResult = ""
+	try
+	{
+		if( id == null ) testResult = testResult + "id must not be null~";
+		if( shortDisplayName == null ) testResult = testResult + "shortDisplayName must not be null~";
+		if( geoLocation == null ) testResult = testResult + "geoLocation must not be null";
+	}
+	catch(err)
+	{
+		JOptionPane.showMessageDialog( null, err.message );
+	}
+	return testResult;
+}

@@ -1,0 +1,4 @@
+i_id
+s_name
+s_subTypeDescription
+l_address

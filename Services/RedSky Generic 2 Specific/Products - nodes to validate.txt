@@ -1,0 +1,17 @@
+s_name
+s_dpci
+i_tcin
+s_isCartwheel
+s_cartwheelOfferId
+s_cartwheelOfferUuid
+s_currentPrice
+s_originalPrice
+s_storePromotion
+s_priceCurrency
+s_availabilityStatus
+s_channelAvailabilityStatus
+i_channelAvailabilityCode
+s_imagePattern
+l_locations
+'i_consolidatedOverallRating
+'i_totalReviews

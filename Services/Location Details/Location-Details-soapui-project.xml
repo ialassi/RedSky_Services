@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project activeEnvironment="Default" name="Location Details" resourceRoot="" soapui-version="5.0.0" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:RestService" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://www.tgtappdata.com" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>http://www.tgtappdata.com</con:endpoint></con:endpoints><con:resource name="StoreId,storeId" path="/v2/stores/location/{storeId,storeId}"><con:settings/><con:parameters><con:parameter><con:name>storeId,storeId</con:name><con:value>storeId,storeId</con:value><con:style>TEMPLATE</con:style><con:default>storeId,storeId</con:default><con:path xsi:nil="true"/><con:description xsi:nil="true"/></con:parameter></con:parameters><con:method name="Location Details" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element>Response</con:element></con:representation><con:request name="Location Details" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://www.tgtappdata.com</con:endpoint><con:request/><con:originalUri>http://www.tgtappdata.com/v2/stores/location/12</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="storeId,storeId" value="5" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>storeId,storeId</con:entry></con:parameterOrder></con:request></con:method></con:resource></con:interface><con:testSuite name="TestSuite 1"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase failOnError="false" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TestCase 1" searchProperties="true" id="8f93b26d-780c-437f-aa4a-23f1716dc4e9" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings/><con:testStep type="properties" name="Location Details DS"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>storeId</con:name><con:value>3200</con:value></con:property><con:property><con:name>Ignore</con:name><con:value/></con:property></con:properties></con:config></con:testStep><con:testStep type="restrequest" name="Location Details"><con:settings/><con:config service="http://www.tgtappdata.com" resourcePath="/v2/stores/location/{storeId,storeId}" methodName="Location Details" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Location Details" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://www.tgtappdata.com</con:endpoint><con:request/><con:originalUri>http://www.tgtappdata.com/v2/stores/location/12</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="storeId,storeId" value="${Location Details DS#storeId}" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>storeId,storeId</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="Location Details GS" id="8df437c4-3c43-480d-b6f2-077d566acacc"><con:settings/><con:config><script><![CDATA[import javax.swing.*;
+import com.eviware.soapui.support.*
+import groovy.json.JsonSlurper
+
+servicePath = "/jenkins/Services/"
+servicePath = "C:/Target Automation/Services/"
+
+String filename 
+String errPath = servicePath + "Output/Errors/"
+filename = errPath + "Failure.log" 
+Boolean fileSuccessfullyDeleted = new File(filename).delete()
+//---------------------------------------------------------------
+validate_Populated_Response_Values( "Location Details", "products" )
+//---------------------------------------------------------------
+File f = new File( filename );
+if(f.exists()){
+	String MainErrfilename = errPath + "All_Failures.html"
+	String fileContent = ReadFile( filename )
+	String [] arrValues = fileContent.split(",")
+	String varLine, varLines
+	varLines = ""
+	if( fileContent.length() > 0 )
+	{
+		for( intArrayIndex = 0; intArrayIndex < arrValues.length; intArrayIndex++ )
+		{
+			varLine = arrValues[intArrayIndex]
+			firstChar = varLine[0]
+			if( firstChar == "~" ) varLines = varLines + "<hr>";
+			if( firstChar == "~" || firstChar == "(" || firstChar == "[" )
+			{
+				varLine = varLine.substring( 1, varLine.length() );
+			}
+			switch(firstChar)
+			{
+				case "~":	varLine = "<a style='font-family:Candara;font-size:20px;color:Orange;'>" + varLine + "</a><br>"; break;
+				case "(":	varLine = "<a style='font-family:Candara;font-size:15px;color:blue;'>" + varLine + "</a><br>"; break; 
+				case "[":	varLine = "<a style='font-family:Candara;font-size:15px;color:purple;'>" + varLine + "</a><br>"; break;
+				default: varLine = "<a style='font-family:Candara;font-size:15px;color:#005A1A;'>" + varLine + "</a><br>"; break;
+			}
+			if( varLine.indexOf("[COMMA]") >= 0 )
+				varLine = varLine.replace( "[COMMA]", "," );
+			varLines = varLines + varLine
+		}
+		AddTextToFile( MainErrfilename, varLines, true )
+	}
+}		
+//=====================================================================================
+public void validate_Populated_Response_Values( String var_Service, String var_Branch ) 
+//=====================================================================================
+{
+	String testResult
+	String id = "",
+		  name = "",
+		  subTypeDescription = "",
+		  address = ""
+
+	String StoreID, Ignore;
+	String varLines = copyFileToArray( servicePath + "RedSky.srv", var_Service )
+
+	String [] testResultArray;	
+	String [] arrLines = varLines.split("~")
+	String [] arrColumns;
+	String [] arrParams;
+	String [] arrServiceValues;
+		
+	Integer iArrayColumnIndex;
+	String varColumns, varColumn;
+	String varValues, varValue; 
+	String varParams, varParam;
+	varValues = ""
+	//---------------------------
+	// Collect Columns and Values
+	//---------------------------
+	for( iArrayIndex = 0; iArrayIndex < arrLines.length-1; iArrayIndex++ )
+	{
+		varValue = arrLines[iArrayIndex]	
+		if( iArrayIndex == 0 ) arrColumns = varValue.split(",");
+		else if( iArrayIndex > 0) varValues = varValues + varValue + "~";
+	}
+	//JOptionPane.showMessageDialog( null, "arrColumns: " + arrColumns );
+	//JOptionPane.showMessageDialog( null, "varValues: " + varValues );
+	varValues = varValues.substring(0, varValues.length() - 1 )
+	//JOptionPane.showMessageDialog( null, "varValues: " + varValues );
+	arrServiceValues = varValues.split("~");
+	//--------------------
+	// Populate Parameters
+	//--------------------
+	WebServiceProps = testRunner.testCase.getTestStepByName( var_Service + " DS" );
+	for( iArrayIndex = 0; iArrayIndex < arrServiceValues.length; iArrayIndex++ )
+	{
+		for( iArrayColumnIndex = 0; iArrayColumnIndex < arrColumns.length; iArrayColumnIndex++ )
+		{
+			varColumn = arrColumns[iArrayColumnIndex]
+			varParams = arrServiceValues[iArrayIndex]
+			arrParams = varParams.split(",")
+			varParam = arrParams[iArrayColumnIndex]
+			varParam = varParam.trim();
+			switch(varColumn.trim())
+			{
+				case "storeId":
+					WebServiceProps.setPropertyValue( "storeId", varParam );
+					StoreID = WebServiceProps.getPropertyValue( "storeId" );
+					break;
+				case "Ignore":
+					WebServiceProps.setPropertyValue( "Ignore", varParam );
+					Ignore = WebServiceProps.getPropertyValue( "Ignore" );
+					break;
+			}
+		}
+		if( Ignore != "Y" )
+		{
+			if( StoreID.length() == 0 )
+			{
+				JOptionPane.showMessageDialog( null, "StoreID is empty" );
+				break;
+			}	
+			//-----------------
+			// Collect Response
+			//-----------------
+			//JOptionPane.showMessageDialog( null, "Here" );
+			testRunner.runTestStepByName(var_Service);
+			String Response = testRunner.testCase.testSteps[ var_Service ].testRequest.response.contentAsString
+			//JOptionPane.showMessageDialog( null, Response );
+			//--------------------------
+			// Collect Items to validate
+			//--------------------------
+			String var_Items = ReadFile( servicePath + var_Service + "/" + var_Branch + " - nodes to validate.txt" )
+			String [] arr_Items = var_Items.split(",")
+			Integer int_Index = 0
+			def arr_subItem, var_Element, var_subItem_Type, subItemName, s_subItem, i_subItem, l_subItem
+			//--------------------------------
+			// Split JSON per specified Branch
+			//--------------------------------
+			List<Map> parsedData = (List<Map>)new JsonSlurper().parseText( Response );  
+			for ( Map aObject : parsedData )
+			{ 
+				//---------------------------------------
+				// Loop through User defined check points
+				//---------------------------------------
+				while(int_Index < arr_Items.length )
+				{
+					//-----------------------------------------------------------
+					// Collect Node Type (Integer, String or  List) and Node Name
+					//-----------------------------------------------------------
+					var_Element = arr_Items[int_Index].trim()
+					arr_subItem = var_Element.split("_")
+					var_subItem_Type = arr_subItem[0]
+					subItemName = arr_subItem[1]
+					int_Index = int_Index + 1
+					//-----------------------------------
+					// ignore reporting on specified Node
+					//-----------------------------------
+					if( var_Element[0] != "'" )
+					{
+						Object fieldValue = aObject.get(subItemName)
+						if( subItemName == "id" ) id = fieldValue;
+						if( subItemName == "name" ) name = fieldValue;
+						if( subItemName == "subTypeDescription" ) subTypeDescription = fieldValue;
+						if( subItemName == "address" ) address = fieldValue;
+				 	}
+				}
+			   	testResult = CheckResponseValues(	id,
+			   								name,
+											subTypeDescription,
+											address )
+	
+			   	testResultArray = testResult.split("~")
+				if( testResult.length() > 0 )
+			   	{
+					AddTextToFile( servicePath + "Output/Errors/Failure.log", "~Service (" + var_Service + ") Store ID (" + StoreID + ")", true )
+					for( intArrayIndex = 0; intArrayIndex < testResultArray.length; intArrayIndex++)
+					{
+						AddTextToFile( servicePath + "Output/Errors/Failure.log", testResultArray[intArrayIndex], true )
+					}	
+			   	}
+				int_Index = 0;
+			}
+		}
+	}		
+}
+//===========================================================================
+public static void AddTextToFile( String sFile, String sText, boolean bAppend )
+//===========================================================================
+{
+    	FileWriter fstream = new FileWriter( sFile, bAppend );
+     BufferedWriter out = new BufferedWriter( fstream );
+     out.write(sText);
+     out.newLine();   
+     out.close();
+}
+//===========================================
+public static String ReadFile( String sFile )
+//===========================================
+{
+    	File rfile = new File(sFile); 
+    	BufferedReader reader = null; 
+	reader = new BufferedReader(new FileReader(rfile));
+	
+	String sLine, var_Lines, arr_Lines
+	var_Lines = ""
+    	sLine = reader.readLine()
+  	while ( sLine != null ) 
+    	{
+	    	var_Lines = var_Lines + sLine + ","
+	    	sLine = reader.readLine()
+	} 
+	var_Lines = var_Lines.substring(0, var_Lines.length() - 1 )
+	return var_Lines 
+}
+//==========================================================
+String CheckResponseValues( 	String id, 
+			   			String name,
+						String subTypeDescription,
+						String address )
+//==========================================================
+{
+	String testResult = "";
+
+	Integer intStartAddress, intEndAddress 
+	String addressParams, AddressParam, AddressParamValue
+	String [] arrAddressParams
+	String [] arrAddressParamValue
+	Integer arrAddressParamsIndex
+	
+	if( id == null ) testResult = testResult + "id must not be null~";
+	if( name == null ) testResult = testResult + "name must not be null~";
+	if( subTypeDescription == null ) testResult = testResult + "subTypeDescription must not be null~";
+	if( address == null )
+	{
+		testResult = testResult + "address must not be null~";
+	}	
+	else if( address != null )
+	{
+		try
+		{
+			intStartAddress = address.indexOf("{") + 1;
+			intEndAddress = address.indexOf("}");
+			addressParams = address.substring( intStartAddress, intEndAddress )
+			//JOptionPane.showMessageDialog( null, addressParams );
+			arrAddressParams = addressParams.split(",")
+			for (arrAddressParamsIndex = 0; arrAddressParamsIndex < arrAddressParams.length; arrAddressParamsIndex++)
+			{
+				AddressParam = arrAddressParams[arrAddressParamsIndex];
+				//JOptionPane.showMessageDialog( null, AddressParam );
+				if( AddressParam.length() > 0 )
+				{
+					arrAddressParamValue = AddressParam.split("=")
+					AddressParamValue = arrAddressParamValue[1]
+					//JOptionPane.showMessageDialog( null, AddressParamValue );
+					if( AddressParamValue.length() == 0 )
+					{
+						testResult = testResult + "Address parameter (" + arrAddressParamValue[0] + ") should not be empty"
+					}
+				}	
+			}
+		}
+		catch(err)
+		{	
+			//JOptionPane.showMessageDialog( null, "Error Message: " + err.message + " Address parameter (" + arrAddressParamValue[0] + ") = " + AddressParamValue + " ID ("+id+")" );
+		}
+	}
+	return testResult
+}
+//==================================================================
+public static String copyFileToArray( String sFile, String service )
+//==================================================================
+{
+	File rfile = new File(sFile); 
+    	BufferedReader reader = null; 
+	reader = new BufferedReader(new FileReader(rfile));
+	String sLine, varLines, arrLines
+	Boolean bCollect = false
+	varLines = ""
+    	sLine = reader.readLine()
+    	sLine = sLine.trim();
+  	while ( sLine != null ){
+    		if( bCollect == true ) varLines = varLines + sLine + "~";
+    		if( sLine == service ) bCollect = true;
+    		if( bCollect == true && sLine[0] == "-" ) {bCollect = false;	break;}
+	    	sLine = reader.readLine();
+	    	sLine = sLine.trim();
+	} 
+	varLines = varLines.substring(0, varLines.length() - 1 )
+
+	return varLines; 
+}
+]]></script></con:config></con:testStep><con:properties/><con:reportParameters/><con:breakPoints><con:testStepId>88b5bdb7-51d9-413b-8ebe-5cfd7628e82f</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>8df437c4-3c43-480d-b6f2-077d566acacc</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:properties/><con:reportParameters/></con:testSuite><con:requirements/><con:properties/><con:wssContainer/><con:databaseConnectionContainer/><con:oAuth2ProfileContainer/><con:reporting><con:reportTemplates/><con:xmlTemplates/><con:parameters/></con:reporting><con:sensitiveInformation/></con:soapui-project>

@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project activeEnvironment="Default" name="RedSky Generic 2 Specific" resourceRoot="" soapui-version="5.0.0" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:RestService" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://www-stage.tgtappdata.com" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>http://www-stage.tgtappdata.com</con:endpoint></con:endpoints><con:resource name="Search-term" path="/v1/gen2spec/search/{location}/{store}/{search-term}"><con:settings/><con:parameters><con:parameter><con:name>location</con:name><con:value>location</con:value><con:style>TEMPLATE</con:style><con:default>location</con:default><con:path xsi:nil="true"/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>store</con:name><con:value>store</con:value><con:style>TEMPLATE</con:style><con:default>store</con:default><con:path xsi:nil="true"/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>search-term</con:name><con:value>search-term</con:value><con:style>TEMPLATE</con:style><con:default>search-term</con:default><con:path xsi:nil="true"/><con:description xsi:nil="true"/></con:parameter></con:parameters><con:method name="Search-term" method="GET"><con:settings/><con:parameters/><con:representation type="FAULT"><con:mediaType>text/plain; charset=UTF-8</con:mediaType><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json;charset=UTF-8</con:mediaType><con:status>200</con:status><con:params/><con:element>Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType>text/html;charset=utf-8</con:mediaType><con:status>404</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="FAULT"><con:mediaType>text/html</con:mediaType><con:status>500</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="FAULT"><con:mediaType>application/json;charset=UTF-8</con:mediaType><con:status>400 500</con:status><con:params/><con:element xmlns:milk="http://www-stage.tgtappdata.com/v1/gen2spec/search/204/1375/milk">milk:Fault</con:element></con:representation><con:request name="RedSky Generic 2 Specific Request" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://www.tgtappdata.com</con:endpoint><con:request/><con:originalUri>http://www-stage.tgtappdata.com/v1/gen2spec/search/204/1375/milk</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="store" value="1385"/>
+  <con:entry key="location" value="inside"/>
+  <con:entry key="search-term" value="bananas"/>
+</con:parameters><con:parameterOrder><con:entry>location</con:entry><con:entry>store</con:entry><con:entry>search-term</con:entry></con:parameterOrder></con:request></con:method></con:resource></con:interface><con:testSuite name="RedSky Generic 2 Specific TS"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase failOnError="false" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="RedSky Generic 2 Specific TC" searchProperties="true" id="f5b11fe2-211b-4ab0-b0da-15d9b4ac22de" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings/><con:testStep type="properties" name="RedSky Generic 2 Specific DS"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>location</con:name><con:value>outside</con:value></con:property><con:property><con:name>store</con:name><con:value>1385</con:value></con:property><con:property><con:name>search-term</con:name><con:value>balloons</con:value></con:property><con:property><con:name>Ignore</con:name><con:value/></con:property></con:properties></con:config></con:testStep><con:testStep type="restrequest" name="RedSky Generic 2 Specific"><con:settings/><con:config service="http://www-stage.tgtappdata.com" resourcePath="/v1/gen2spec/search/{location}/{store}/{search-term}" methodName="Search-term" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="RedSky Generic 2 Specific" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://www.tgtappdata.com</con:endpoint><con:request/><con:originalUri>http://www-stage.tgtappdata.com/v1/gen2spec/search/204/1375/milk</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="store" value="${RedSky Generic 2 Specific DS#store}"/>
+  <con:entry key="location" value="${RedSky Generic 2 Specific DS#location}"/>
+  <con:entry key="search-term" value="${RedSky Generic 2 Specific DS#search-term}"/>
+</con:parameters><con:parameterOrder><con:entry>location</con:entry><con:entry>store</con:entry><con:entry>search-term</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="RedSky Generic 2 Specific GS"><con:settings/><con:config><script><![CDATA[import javax.swing.*;
+import com.eviware.soapui.support.*
+import groovy.json.JsonSlurper
+
+servicePath = "/jenkins/Services/"
+servicePath = "C:/Target Automation/Services/"
+
+String filename 
+String errPath = servicePath + "Output/Errors/"
+filename = errPath + "Failure.log" 
+Boolean fileSuccessfullyDeleted = new File(filename).delete()
+//---------------------------------------------------------------------------
+validate_Populated_Response_Values( "RedSky Generic 2 Specific", "Products" )
+//---------------------------------------------------------------------------
+File f = new File( filename );
+if(f.exists()){
+	String MainErrfilename = errPath + "All_Failures.html"
+	String fileContent = ReadFile( filename )
+	String [] arrValues = fileContent.split(",")
+	String varLine, varLines
+	varLines = ""
+	if( fileContent.length() > 0 )
+	{
+		for( intArrayIndex = 0; intArrayIndex < arrValues.length; intArrayIndex++ )
+		{
+			varLine = arrValues[intArrayIndex]
+			firstChar = varLine[0]
+			if( firstChar == "~" ) varLines = varLines + "<hr>";
+			if( firstChar == "~" || firstChar == "(" || firstChar == "[" )
+			{
+				varLine = varLine.substring( 1, varLine.length() );
+			}
+			switch(firstChar)
+			{
+				case "~":	varLine = "<a style='font-family:Candara;font-size:20px;color:Orange;'>" + varLine + "</a><br>"; break;
+				case "(":	varLine = "<a style='font-family:Candara;font-size:15px;color:blue;'>" + varLine + "</a><br>"; break; 
+				case "[":	varLine = "<a style='font-family:Candara;font-size:15px;color:purple;'>" + varLine + "</a><br>"; break;
+				default: varLine = "<a style='font-family:Candara;font-size:15px;color:#005A1A;'>" + varLine + "</a><br>"; break;
+			}
+			if( varLine.indexOf("[COMMA]") >= 0 )
+				varLine = varLine.replace( "[COMMA]", "," );
+			varLines = varLines + varLine
+		}
+		AddTextToFile( MainErrfilename, varLines, true )
+	}
+}		
+//=====================================================================================
+public void validate_Populated_Response_Values( String var_Service, String var_Branch ) 
+//=====================================================================================
+{
+	String testResult
+	String name = "",
+		  dpci = "",
+		  tcin = "",
+		  isCartwheel = "",
+		  cartwheelOfferId = "",
+		  cartwheelOfferUuid = "",
+		  currentPrice = "",
+		  originalPrice = "",
+		  storePromotion = "",
+		  priceCurrency = "",
+		  availabilityStatus = "",
+		  channelAvailabilityStatus = "",
+		  channelAvailabilityCode = "",
+		  imagePattern = "",
+		  locations = "",
+		  consolidatedOverallRating = "",
+		  totalReviews = ""
+
+	String Location, Store, SearchTerm, Ignore;
+	String varLines = copyFileToArray( servicePath + "RedSky.srv", var_Service )
+	//JOptionPane.showMessageDialog( null, "varLines: " + varLines );
+
+	String [] testResultArray;	
+	String [] arrLines = varLines.split("~")
+	String [] arrColumns;
+	String [] arrParams;
+	String [] arrServiceValues;
+		
+	Integer iArrayColumnIndex;
+	String varColumns, varColumn;
+	String varValues, varValue; 
+	String varParams, varParam;
+	varValues = ""
+	//---------------------------
+	// Collect Columns and Values
+	//---------------------------
+	for( iArrayIndex = 0; iArrayIndex < arrLines.length-1; iArrayIndex++ )
+	{
+		varValue = arrLines[iArrayIndex]	
+		if( iArrayIndex == 0 ) arrColumns = varValue.split(",");
+		else if( iArrayIndex > 0) varValues = varValues + varValue + "~";
+	}
+	//JOptionPane.showMessageDialog( null, "arrColumns: " + arrColumns );
+	//JOptionPane.showMessageDialog( null, "varValues: " + varValues );
+	varValues = varValues.substring(0, varValues.length() - 1 )
+	//JOptionPane.showMessageDialog( null, "varValues: " + varValues );
+	arrServiceValues = varValues.split("~");
+	//--------------------
+	// Populate Parameters
+	//--------------------
+	WebServiceProps = testRunner.testCase.getTestStepByName( var_Service + " DS" );
+	for( iArrayIndex = 0; iArrayIndex < arrServiceValues.length; iArrayIndex++ )
+	{
+		for( iArrayColumnIndex = 0; iArrayColumnIndex < arrColumns.length; iArrayColumnIndex++ )
+		{
+			varColumn = arrColumns[iArrayColumnIndex]
+			varParams = arrServiceValues[iArrayIndex]
+			arrParams = varParams.split(",")
+			varParam = arrParams[iArrayColumnIndex]
+			varParam = varParam.trim();
+			switch(varColumn.trim())
+			{
+				case "location":
+					WebServiceProps.setPropertyValue( "location", varParam );
+					Location = WebServiceProps.getPropertyValue( "location" );
+					break;
+				case "store":
+					WebServiceProps.setPropertyValue( "store", varParam );
+					Store = WebServiceProps.getPropertyValue( "store" );
+					break;
+				case "search-term":
+					WebServiceProps.setPropertyValue( "search-term", varParam );
+					SearchTerm = WebServiceProps.getPropertyValue( "search-term" );
+					break;
+				case "Ignore":
+					WebServiceProps.setPropertyValue( "Ignore", varParam );
+					Ignore = WebServiceProps.getPropertyValue( "Ignore" );
+					break;
+			}
+		}
+		if( Ignore != "Y" )
+
+		{
+			if( Location.length() == 0 )
+			{
+				JOptionPane.showMessageDialog( null, "Location is empty" );
+				break;
+			}	
+			//-----------------
+			// Collect Response
+			//-----------------
+			testRunner.runTestStepByName(var_Service);
+			String Response = testRunner.testCase.testSteps[ var_Service ].testRequest.response.contentAsString
+			//JOptionPane.showMessageDialog( null, Response );
+			//--------------------------
+			// Collect Items to validate
+			//--------------------------
+			String var_Items = ReadFile( servicePath + var_Service + "/" + var_Branch + " - nodes to validate.txt" )
+			String [] arr_Items = var_Items.split(",")
+			Integer int_Index = 0
+			def arr_subItem, var_Element, var_subItem_Type, subItemName, s_subItem, i_subItem, l_subItem
+			//--------------------------------
+			// Split JSON per specified Branch
+			//--------------------------------
+			List<Map> parsedData = (List<Map>)new JsonSlurper().parseText( Response );  
+			for ( Map aObject : parsedData )
+			{ 
+				//---------------------------------------
+				// Loop through User defined check points
+				//---------------------------------------
+				while(int_Index < arr_Items.length )
+				{
+					//-----------------------------------------------------------
+					// Collect Node Type (Integer, String or  List) and Node Name
+					//-----------------------------------------------------------
+					var_Element = arr_Items[int_Index].trim()
+					arr_subItem = var_Element.split("_")
+					var_subItem_Type = arr_subItem[0]
+					subItemName = arr_subItem[1]
+					int_Index = int_Index + 1
+					//-----------------------------------
+					// ignore reporting on specified Node
+					//-----------------------------------
+					if( var_Element[0] != "'" )
+					{
+						Object fieldValue = aObject.get(subItemName)
+						
+						if( subItemName == "name" )
+						{ 
+							name = fieldValue;
+							if( name != null )
+								if( name.indexOf(",") >= 0 )
+	    								name = name.replace( ",", "[COMMA]" );
+ 						}	
+						if( subItemName == "dpci" ) dpci = fieldValue;
+						if( subItemName == "tcin" ) tcin = fieldValue;
+						if( subItemName == "isCartwheel" ) isCartwheel = fieldValue;
+						if( subItemName == "cartwheelOfferId" ) cartwheelOfferId = fieldValue;
+						if( subItemName == "cartwheelOfferUuid" ) cartwheelOfferUuid = fieldValue;
+						if( subItemName == "currentPrice" ) currentPrice = fieldValue;
+						if( subItemName == "originalPrice" ) originalPrice = fieldValue; 
+						if( subItemName == "storePromotion" ) storePromotion = fieldValue;
+						if( subItemName == "priceCurrency" ) priceCurrency = fieldValue;
+						if( subItemName == "availabilityStatus" ) availabilityStatus = fieldValue;
+						if( subItemName == "channelAvailabilityStatus" ) channelAvailabilityStatus = fieldValue;
+						if( subItemName == "channelAvailabilityCode" ) channelAvailabilityCode = fieldValue;
+						if( subItemName == "imagePattern" ) imagePattern = fieldValue;
+						if( subItemName == "locations" ) locations = fieldValue;
+						if( subItemName == "consolidatedOverallRating" ) consolidatedOverallRating = fieldValue;
+						if( subItemName == "totalReviews" ) totalReviews = fieldValue;
+				 	}
+				}
+			   	testResult = CheckResponseValues(	name,
+											dpci,
+											tcin,
+											isCartwheel,
+											cartwheelOfferId,
+											cartwheelOfferUuid,
+											currentPrice,
+											originalPrice,
+											storePromotion,
+											priceCurrency,
+											availabilityStatus,
+											channelAvailabilityStatus,
+											channelAvailabilityCode,
+											imagePattern,
+											locations,
+											consolidatedOverallRating,
+											totalReviews )
+			   	testResultArray = testResult.split("~")
+				if( testResult.length() > 0 )
+			   	{
+					AddTextToFile( servicePath + "Output/Errors/Failure.log", "~Service (" + var_Service + ") Location (" + Location + ") Store (" + Store + ") Search Term (" + SearchTerm + ") dpci (" + dpci + ")", true )
+					for( intArrayIndex = 0; intArrayIndex < testResultArray.length; intArrayIndex++)
+					{
+					   	//JOptionPane.showMessageDialog( null, testResultArray[intArrayIndex] );
+						AddTextToFile( servicePath + "Output/Errors/Failure.log", testResultArray[intArrayIndex], true )
+					}	
+			   	}
+				int_Index = 0;
+			}
+		}
+	}		
+}
+//===========================================================================
+public static void AddTextToFile( String sFile, String sText, boolean bAppend )
+//===========================================================================
+{
+    	FileWriter fstream = new FileWriter( sFile, bAppend );
+     BufferedWriter out = new BufferedWriter( fstream );
+     out.write(sText);
+     out.newLine();   
+     out.close();
+}
+//===========================================
+public static String ReadFile( String sFile )
+//===========================================
+{
+    	File rfile = new File(sFile); 
+    	BufferedReader reader = null; 
+	reader = new BufferedReader(new FileReader(rfile));
+	
+	String sLine, var_Lines, arr_Lines
+	var_Lines = ""
+    	sLine = reader.readLine()
+  	while ( sLine != null ) 
+    	{
+	    	var_Lines = var_Lines + sLine + ","
+	    	sLine = reader.readLine()
+	} 
+	var_Lines = var_Lines.substring(0, var_Lines.length() - 1 )
+	return var_Lines 
+}
+//===========================================================
+String CheckResponseValues( String name,
+					   String dpci,
+					   String tcin,
+					   String isCartwheel,
+					   String cartwheelOfferId,
+					   String cartwheelOfferUuid,
+					   String currentPrice,
+					   String originalPrice,
+					   String storePromotion,
+					   String priceCurrency,
+					   String availabilityStatus,
+					   String channelAvailabilityStatus,
+					   String channelAvailabilityCode,
+					   String imagePattern,
+					   String locations,
+					   String consolidatedOverallRating,
+					   String totalReviews )
+//===========================================================
+{
+	String testResult = "";
+
+	if( name == null ) testResult = testResult + "name must not be null~";
+	if( dpci == null ) testResult = testResult + "dpci must not be null~";
+	if( tcin == null ) testResult = testResult + "tcin must not be null~";
+	if( isCartwheel == null ) testResult = testResult + "isCartwheel must not be null~";
+	if( cartwheelOfferId == null ) testResult = testResult + "cartwheelOfferId must not be null~";
+	if( cartwheelOfferUuid == null ) testResult = testResult + "cartwheelOfferUuid must not be null~";
+	if( currentPrice == null ) testResult = testResult + "currentPrice must not be null~";
+	if( originalPrice == null ) testResult = testResult + "originalPrice must not be null~";
+	if( storePromotion == null ) testResult = testResult + "storePromotion must not be null~";
+	if( priceCurrency == null ) testResult = testResult + "priceCurrency must not be null~";
+	if( availabilityStatus == null ) testResult = testResult + "availabilityStatus must not be null~";
+	if( channelAvailabilityStatus == null ) testResult = testResult + "channelAvailabilityStatus must not be null~";
+	if( channelAvailabilityCode == null ) testResult = testResult + "channelAvailabilityCode must not be null~";
+	if( imagePattern == null ) testResult = testResult + "imagePattern must not be null~";
+	if( locations == null ) testResult = testResult + "locations must not be null~";
+	if( consolidatedOverallRating == null ) testResult = testResult + "consolidatedOverallRating must not be null~";
+	if( totalReviews == null ) testResult = testResult + "totalReviews must not be null~";
+
+	return testResult
+}
+//==================================================================
+public static String copyFileToArray( String sFile, String service )
+//==================================================================
+{
+	File rfile = new File(sFile); 
+    	BufferedReader reader = null; 
+	reader = new BufferedReader(new FileReader(rfile));
+	String sLine, varLines, arrLines
+	Boolean bCollect = false
+	varLines = ""
+    	sLine = reader.readLine()
+    	sLine = sLine.trim();
+  	while ( sLine != null ){
+    		if( bCollect == true ) varLines = varLines + sLine + "~";
+    		if( sLine == service ) bCollect = true;
+    		if( bCollect == true && sLine[0] == "-" ) {bCollect = false;	break;}
+	    	sLine = reader.readLine();
+	    	sLine = sLine.trim();
+	} 
+	varLines = varLines.substring(0, varLines.length() - 1 )
+
+	return varLines; 
+}
+]]></script></con:config></con:testStep><con:properties/><con:reportParameters/><con:breakPoints><con:testStepId>d3a1a493-79f1-42d5-9b88-a437bab4de15</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>7efcbc86-7120-4639-ac92-bdc3e4fc11f1</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:testCase failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="RedSky Generic 2 Specific TC Load Test" searchProperties="true" disabled="true"><con:settings/><con:testStep type="restrequest" name="RedSky Generic 2 Specific Request"><con:settings/><con:config service="http://www-stage.tgtappdata.com" resourcePath="/v1/gen2spec/search/{location}/{store}/{search-term}" methodName="Search-term" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="RedSky Generic 2 Specific Request" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://www.tgtappdata.com</con:endpoint><con:request/><con:originalUri>http://www-stage.tgtappdata.com/v1/gen2spec/search/204/1375/milk</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="store" value="1375"/>
+  <con:entry key="location" value="inside"/>
+  <con:entry key="search-term" value="balloons"/>
+</con:parameters><con:parameterOrder><con:entry>location</con:entry><con:entry>store</con:entry><con:entry>search-term</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:loadTest name="RedSky Generic 2 Specific Load Test"><con:settings><con:setting id="HttpSettings@close-connections">false</con:setting></con:settings><con:threadCount>20</con:threadCount><con:startDelay>0</con:startDelay><con:sampleInterval>250</con:sampleInterval><con:calculateTPSOnTimePassed>true</con:calculateTPSOnTimePassed><con:resetStatisticsOnThreadCountChange>true</con:resetStatisticsOnThreadCountChange><con:historyLimit>-1</con:historyLimit><con:testLimit>60</con:testLimit><con:limitType>TIME</con:limitType><con:loadStrategy><con:type>Simple</con:type></con:loadStrategy><con:assertion type="Step Status" name="Step Status"/><con:maxAssertionErrors>100</con:maxAssertionErrors><con:cancelExcessiveThreads>true</con:cancelExcessiveThreads><con:strategyInterval>500</con:strategyInterval></con:loadTest><con:properties/></con:testCase><con:properties/><con:reportParameters/></con:testSuite><con:requirements/><con:properties/><con:wssContainer/><con:databaseConnectionContainer/><con:oAuth2ProfileContainer/><con:reporting><con:reportTemplates/><con:xmlTemplates/><con:parameters/></con:reporting></con:soapui-project>

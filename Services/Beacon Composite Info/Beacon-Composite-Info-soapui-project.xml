@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project activeEnvironment="Default" name="Beacon Composite Info Prod" resourceRoot="" soapui-version="5.0.0" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.actions.iface.tools.soapui.ProLoadTestRunnerAction@values-local"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="Environment" value="Default"/>
+  <con:entry key="Global Properties" value=""/>
+  <con:entry key="TestSuite" value="Beacon Composite Info"/>
+  <con:entry key="Report to Generate" value=""/>
+  <con:entry key="Password" value=""/>
+  <con:entry key="TestRunner Path" value="C:\Imad\SoapUI-Pro-5.0.0/bin"/>
+  <con:entry key="Tool Args" value=""/>
+  <con:entry key="LoadTest" value="Beacon Composite Info LT"/>
+  <con:entry key="Host:Port" value=""/>
+  <con:entry key="user-settings.xml Password" value=""/>
+  <con:entry key="WSS Password Type" value=""/>
+  <con:entry key="Save Project" value="false"/>
+  <con:entry key="System Properties" value=""/>
+  <con:entry key="Domain" value=""/>
+  <con:entry key="Open Report" value="false"/>
+  <con:entry key="Project Properties" value=""/>
+  <con:entry key="Print Report Statistics" value="false"/>
+  <con:entry key="Project Password" value=""/>
+  <con:entry key="Report Format(s)" value=""/>
+  <con:entry key="TestCase" value="Beacon Composite Info Load"/>
+  <con:entry key="Username" value=""/>
+  <con:entry key="Root Folder" value=""/>
+  <con:entry key="Add Settings" value="false"/>
+  <con:entry key="Save After" value="false"/>
+  <con:entry key="Endpoint" value=""/>
+  <con:entry key="ThreadCount" value=""/>
+  <con:entry key="Limit" value=""/>
+</xml-fragment>]]></con:setting></con:settings><con:interface xsi:type="con:RestService" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://www.tgtappdata.com" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>http://www.tgtappdata.com</con:endpoint></con:endpoints><con:resource name="LocationId" path="/v1/beacon/composite/{storeId}/{locationId}"><con:settings/><con:parameters><con:parameter><con:name>storeId</con:name><con:value>storeId</con:value><con:style>TEMPLATE</con:style><con:default>storeId</con:default><con:path xsi:nil="true"/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>locationId</con:name><con:value>locationId</con:value><con:style>TEMPLATE</con:style><con:default>locationId</con:default><con:path xsi:nil="true"/><con:description xsi:nil="true"/></con:parameter></con:parameters><con:method name="Beacon Composite Info" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json;charset=UTF-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:ns="http://www.tgtappdata.com/v1/beacon/composite/1375/100">ns:Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType>text/html;charset=utf-8</con:mediaType><con:status>404</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="FAULT"><con:mediaType>text/plain; charset=UTF-8</con:mediaType><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType>text/html; charset=utf-8</con:mediaType><con:status>407</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="Beacon Composite Info" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://www.tgtappdata.com</con:endpoint><con:request/><con:originalUri>http://www.tgtappdata.com/v1/beacon/composite/1375/100</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="locationId" value="201"/>
+  <con:entry key="storeId" value="2766"/>
+</con:parameters><con:parameterOrder><con:entry>storeId</con:entry><con:entry>locationId</con:entry></con:parameterOrder></con:request></con:method></con:resource></con:interface><con:testSuite name="Beacon Composite Info TS"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase failOnError="false" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Beacon Composite Info TC" searchProperties="true" id="4079bbee-837e-429c-9d44-8579d7b856bd" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings/><con:testStep type="properties" name="Beacon Composite Info DS"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>storeId</con:name><con:value>2799</con:value></con:property><con:property><con:name>locationId</con:name><con:value>209</con:value></con:property><con:property><con:name>Ignore</con:name><con:value/></con:property></con:properties></con:config></con:testStep><con:testStep type="restrequest" name="Beacon Composite Info" id="03e92c67-4230-4150-9420-a9c0e67c5938"><con:settings/><con:config service="http://www.tgtappdata.com" resourcePath="/v1/beacon/composite/{storeId}/{locationId}" methodName="Beacon Composite Info" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Beacon Composite Info" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://www.tgtappdata.com</con:endpoint><con:request/><con:originalUri>http://www.tgtappdata.com/v1/beacon/composite/1375/100</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="locationId" value="${Beacon Composite Info DS#locationId}"/>
+  <con:entry key="storeId" value="${Beacon Composite Info DS#storeId}"/>
+</con:parameters><con:parameterOrder><con:entry>storeId</con:entry><con:entry>locationId</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="Beacon Composite Info GS" id="304e33ff-74b0-4a6c-83b1-8fc38cc8df52"><con:settings/><con:config><script><![CDATA[import javax.swing.*;
+import com.eviware.soapui.support.*
+import groovy.json.JsonSlurper
+
+servicePath = "/jenkins/Services/"
+servicePath = "C:/Target Automation/Services/"
+
+String filename 
+String errPath = servicePath + "Output/Errors/"
+filename = errPath + "Failure.log" 
+Boolean fileSuccessfullyDeleted = new File(filename).delete()
+//-----------------------------------------------------------------------
+validate_Populated_Response_Values( "Beacon Composite Info", "products" )
+//-----------------------------------------------------------------------
+File f = new File( filename );
+if(f.exists()){
+	String MainErrfilename = errPath + "All_Failures.html"
+	String fileContent = ReadFile( filename )
+	String [] arrValues = fileContent.split(",")
+	String varLine, varLines
+	varLines = ""
+	if( fileContent.length() > 0 )
+	{
+		for( intArrayIndex = 0; intArrayIndex < arrValues.length; intArrayIndex++ )
+		{
+			varLine = arrValues[intArrayIndex]
+			firstChar = varLine[0]
+			if( firstChar == "~" ) varLines = varLines + "<hr>";
+			if( firstChar == "~" || firstChar == "(" || firstChar == "[" || firstChar == "{" )
+			{
+				varLine = varLine.substring( 1, varLine.length() );
+			}
+			switch(firstChar)
+			{
+				case "~":	varLine = "<a style='font-family:Candara;font-size:20px;color:Orange;'>" + varLine + "</a><br>"; break;
+				case "(":	varLine = "<a style='font-family:Candara;font-size:15px;color:blue;'>" + varLine + "</a><br>"; break; 
+				case "[":	varLine = "<a style='font-family:Candara;font-size:15px;color:purple;'>" + varLine + "</a><br>"; break;
+				case "{":	varLine = "<a style='font-family:Candara;font-size:18px;color:red;'>" + varLine + "</a><br>"; break;
+				default: varLine = "<a style='font-family:Candara;font-size:15px;color:#005A1A;'>" + varLine + "</a><br>"; break;
+			}
+			if( varLine.indexOf("[COMMA]") >= 0 )
+				varLine = varLine.replace( "[COMMA]", "," );
+			varLines = varLines + varLine
+		}
+		AddTextToFile( MainErrfilename, varLines, true )
+	}
+}		
+//=====================================================================================
+public void validate_Populated_Response_Values( String var_Service, String var_Branch ) 
+//=====================================================================================
+{
+	String testResult, URL, JSONdata;
+	String title = "",
+		  dpci = "",
+	       tcin = "",
+		  departmentId = "",
+	       storeId = "",
+		  cartwheelOffers = "",
+		  channelAvailabilityCode = "",
+	       onlinePrice = "",
+	       onlinePriceText = "",
+	       onlineAvailabilityCode = "",
+	       storePriceStatusCode = "",
+	       currentStorePrice = "",
+	       originalStorePrice = "",
+	       priceCurrency = "",
+	       storePromotionExists = "",
+	       storeAvailabilityCode = "",
+	       locations = "",
+	       averageRating = "",
+	       reviewCount = "",
+	       categoryId = "",
+	       categoryName = ""
+	String Ignore, StoreID, LocationID, Response;
+	Long lTestStartTime, lTestEndTime, lTestTimeDiff;
+	Long lStartTime, lEndTime, lTimeDiff;
+
+	String varLines = copyFileToArray( servicePath + "RedSky.srv", var_Service )
+	//JOptionPane.showMessageDialog( null, " varLines = " + varLines );
+
+	String [] testResultArray;	
+	String [] arrLines = varLines.split("~")
+	String [] arrColumns;
+	String [] arrParams;
+	String [] arrServiceValues;
+		
+	Integer iArrayColumnIndex;
+	String varColumns, varColumn;
+	String varValues, varValue; 
+	String varParams, varParam;
+	varValues = ""
+
+	lTestStartTime = getStartTime();
+	//---------------------------
+	// Collect Columns and Values
+	//---------------------------
+	for( iArrayIndex = 0; iArrayIndex < arrLines.length-1; iArrayIndex++ )
+	{
+		varValue = arrLines[iArrayIndex]	
+		if( iArrayIndex == 0 ) arrColumns = varValue.split(",");
+		else if( iArrayIndex > 0) varValues = varValues + varValue + "~";
+	}
+	varValues = varValues.substring(0, varValues.length() - 1 )
+	//JOptionPane.showMessageDialog( null, "varValues: " + varValues );
+	arrServiceValues = varValues.split("~");
+	//--------------------
+	// Populate Parameters
+	//--------------------
+	WebServiceProps = testRunner.testCase.getTestStepByName( var_Service + " DS" );
+	for( iArrayIndex = 0; iArrayIndex < arrServiceValues.length; iArrayIndex++ )
+	{
+		for( iArrayColumnIndex = 0; iArrayColumnIndex < arrColumns.length; iArrayColumnIndex++ )
+		{
+			varColumn = arrColumns[iArrayColumnIndex]
+			varParams = arrServiceValues[iArrayIndex]
+			arrParams = varParams.split(",")
+			varParam = arrParams[iArrayColumnIndex]
+			varParam = varParam.trim();
+			//JOptionPane.showMessageDialog( null, varColumn + " = " + varParam );
+			switch(varColumn)
+			{
+				case "Ignore":
+					WebServiceProps.setPropertyValue( "Ignore", varParam );
+					Ignore = WebServiceProps.getPropertyValue( "Ignore" );
+					break;
+				case "storeId":
+					WebServiceProps.setPropertyValue( "storeId", varParam );
+					StoreID = WebServiceProps.getPropertyValue( "storeId" );
+					break;
+				case "locationId":
+					WebServiceProps.setPropertyValue( "locationId", varParam );
+					LocationID = WebServiceProps.getPropertyValue( "locationId" );
+					break;
+			}
+		}
+		if( Ignore != "Y" )
+		{
+			//-----------------
+			// Collect Response
+			//-----------------
+			testRunner.runTestStepByName(var_Service);
+			Response = testRunner.testCase.testSteps[ var_Service ].testRequest.response.contentAsString
+			//--------------------------
+			// Collect Items to validate
+			//--------------------------
+			String var_Items = ReadFile( servicePath + var_Service + "/" + var_Branch + " - nodes to validate.txt" )
+			def arr_Items = var_Items.split(",")
+			Integer int_Index = 0
+			def arr_subItem, var_Element, var_subItem_Type, subItemName, s_subItem, i_subItem, l_subItem
+			//--------------------------------
+			// Split JSON per specified Branch
+			//--------------------------------
+			Object result = new JsonSlurper().parseText( Response )
+			Map jsonResult = (Map) result;
+			List Branches = (List) jsonResult.get(var_Branch);
+			Branches.each 
+			{ 
+				Branch ->
+				//---------------------------------------
+				// Loop through User defined check points
+				//---------------------------------------
+				while(int_Index < arr_Items.length )
+				{
+					//-----------------------------------------------------------
+					// Collect Node Type (Integer, String or  List) and Node Name
+					//-----------------------------------------------------------
+					var_Element = arr_Items[int_Index].trim()
+					arr_subItem = var_Element.split("_")
+					var_subItem_Type = arr_subItem[0]
+					subItemName = arr_subItem[1]
+					int_Index = int_Index + 1
+					//-----------------------------------
+					// ignore reporting on specified Node
+					//-----------------------------------
+					if( var_Element[0] != "'" )
+					{
+						Object fieldValue = Branch.get(subItemName)
+						if( subItemName == "title" )
+						{ 
+							title = fieldValue;
+							if( title != null )
+								if( title.indexOf(",") >= 0 )
+	    								title = title.replace( ",", "[COMMA]" );
+ 						}	
+						if( subItemName == "dpci" )
+						{ 
+							try
+							{
+								dpci = fieldValue;
+								//URL = "https://api.target.com/products/v3/"+dpci+"?fields=availability,descriptions,ids,images,item_hierarchies,pricing,reviews,in_store_locations&key=wdEUlQIRuEKViqlEZY4kIEGcZZvCSw0X&store_id="+StoreID+"&id_type=DPCI"
+								URL = "https://api.target.com/products/v3/"+dpci+"?fields=availability,reviews,pricing&key=wdEUlQIRuEKViqlEZY4kIEGcZZvCSw0X&store_id="+StoreID+"&id_type=DPCI"
+								lStartTime = getStartTime()
+								JSONdata = URL.toURL().text;
+								lEndTime = getStartTime()
+								lTimeDiff = lEndTime - lStartTime
+								AddTextToFile( servicePath + "Output/Errors/Failure.log", "Time to run URL (" + lTimeDiff + ")", true )
+							}
+							catch(err)
+							{	
+								AddTextToFile( servicePath + "Output/Errors/Failure.log", "{Error Message (" + err.message + "(" + URL + ")", true )
+							}
+						}
+						if( subItemName == "tcin" ) tcin = fieldValue;
+						if( subItemName == "departmentId" ) departmentId = fieldValue;
+						if( subItemName == "storeId" ) storeId = fieldValue;
+						if( subItemName == "cartwheelOffers" ) cartwheelOffers = fieldValue;
+						if( subItemName == "channelAvailabilityCode" ) channelAvailabilityCode = fieldValue;
+						if( subItemName == "onlinePrice" ) onlinePrice = fieldValue;
+						if( subItemName == "onlinePriceText" ) onlinePriceText = fieldValue;
+						if( subItemName == "onlineAvailabilityCode" ) onlineAvailabilityCode = fieldValue;
+						if( subItemName == "storePriceStatusCode" ) storePriceStatusCode = fieldValue;
+						if( subItemName == "currentStorePrice" ) currentStorePrice = fieldValue;
+						if( subItemName == "originalStorePrice" ) originalStorePrice = fieldValue;
+						if( subItemName == "priceCurrency" ) priceCurrency = fieldValue;
+						if( subItemName == "storePromotionExists" ) storePromotionExists = fieldValue;
+						if( subItemName == "storeAvailabilityCode" ) storeAvailabilityCode = fieldValue;
+						if( subItemName == "locations" ) locations = fieldValue;
+						if( subItemName == "averageRating" ) averageRating = fieldValue;
+						if( subItemName == "reviewCount" ) reviewCount = fieldValue;
+						if( subItemName == "categoryId" ) categoryId = fieldValue;
+						if( subItemName == "categoryName" ) categoryName = fieldValue;
+		   			}
+				}	
+			   	testResult = CheckResponseValues( JSONdata, 
+			   							    title,
+										    dpci,
+									         tcin,
+										    departmentId,
+									         storeId,
+										    cartwheelOffers,
+										    channelAvailabilityCode,
+									         onlinePrice,
+									         onlinePriceText,
+									         onlineAvailabilityCode,
+									         storePriceStatusCode,
+									         currentStorePrice,
+									         originalStorePrice,
+									         priceCurrency,
+									         storePromotionExists,
+									         storeAvailabilityCode,
+									         locations,
+									         averageRating,
+									         reviewCount,
+									         categoryId,
+									         categoryName )
+				if( testResult.length() > 0 )
+		   		{
+			   		testResultArray = testResult.split("~")
+					AddTextToFile( servicePath + "Output/Errors/Failure.log", "~Service (" + var_Service + ")", true )
+					AddTextToFile( servicePath + "Output/Errors/Failure.log", "[Store ID (" + StoreID + ") Location ID (" + LocationID + ") dpci (" + dpci + ") title (" + title + ")", true )
+					for( intArrayIndex = 0; intArrayIndex < testResultArray.length; intArrayIndex++)
+					{
+						AddTextToFile( servicePath + "Output/Errors/Failure.log", testResultArray[intArrayIndex], true )
+					}	
+			   	}
+				int_Index = 0;
+			}
+		}
+	}
+	lTestEndTime = getStartTime();
+	lTestTimeDiff = lTestEndTime - lTestStartTime  
+	Float fTotalTime = (lTestTimeDiff / 1000) / 60
+	AddTextToFile( servicePath + "Output/Errors/Failure.log", "[Total Time (" + fTotalTime + ") minutes", true )
+}
+//===========================================================================
+public static void AddTextToFile( String sFile, String sText, boolean bAppend )
+//===========================================================================
+{
+    	FileWriter fstream = new FileWriter( sFile, bAppend );
+     BufferedWriter out = new BufferedWriter( fstream );
+     out.write(sText);
+     out.newLine();   
+     out.close();
+}
+//===========================================
+public static String ReadFile( String sFile )
+//===========================================
+{
+    	File rfile = new File(sFile); 
+    	BufferedReader reader = null; 
+	reader = new BufferedReader(new FileReader(rfile));
+	
+	String sLine, var_Lines, arr_Lines
+	var_Lines = ""
+    	sLine = reader.readLine()
+  	while ( sLine != null ) 
+    	{
+	    	var_Lines = var_Lines + sLine + ","
+	    	sLine = reader.readLine()
+	} 
+	var_Lines = var_Lines.substring(0, var_Lines.length() - 1 )
+	return var_Lines 
+}
+//================================================
+String CheckResponseValues( String JSONdata,
+					   String title,
+			  		   String dpci,
+					   String tcin,
+					   String departmentId,
+					   String storeId,
+					   String cartwheelOffers,
+					   String channelAvailabilityCode,
+					   String onlinePrice,
+					   String onlinePriceText,
+					   String onlineAvailabilityCode,
+					   String storePriceStatusCode,
+					   String currentStorePrice,
+					   String originalStorePrice,
+					   String priceCurrency,
+					   String storePromotionExists,
+					   String storeAvailabilityCode,
+					   String locations,
+					   String averageRating,
+					   String reviewCount,
+					   String categoryId,
+					   String categoryName )
+//================================================
+{
+	String testResult = ""
+	String expectedValue;
+	
+	if( title == null ) testResult = testResult + "title must not be null~";
+	if( dpci == null ) testResult = testResult + "dpci must not be null~";
+	if( tcin == null ) testResult = testResult + "tcin must not be null~";
+	if( departmentId == null ) testResult = testResult + "departmentId must not be null~";
+	if( storeId == null ) testResult = testResult + "storeId must not be null~";
+	if( cartwheelOffers == null ) testResult = testResult + "cartwheelOffers must not be null~";
+	if( channelAvailabilityCode == null ) testResult = testResult + "channelAvailabilityCode must not be null~";
+	//------------------------------------------------------------------------------------
+	if( onlinePrice == null )
+	{
+		expectedValue = getItem_Expected_Value( JSONdata, "OP_current_price" )
+		if( expectedValue != null )
+			testResult = testResult + "{[EXP] onlinePrice = " + expectedValue + " vs [ACT] onlinePrice = null~";
+	}	
+	if( onlinePriceText == null ) testResult = testResult + "onlinePriceText must not be null~";
+	//------------------------------------------------------------------------------------
+	if( onlineAvailabilityCode == null ) 
+	{
+		expectedValue = getItem_Expected_Value( JSONdata, "ov_availability_code" )
+		if( expectedValue != null )
+			testResult = testResult + "{[EXP] onlineAvailabilityCode = " + expectedValue + " vs [ACT] onlineAvailabilityCode = null~";
+	}	
+	//------------------------------------------------------------------------------------
+	if( storePriceStatusCode == null ) testResult = testResult + "storePriceStatusCode must not be null~";
+	//------------------------------------------------------------------------------------
+	if( currentStorePrice == null )
+	{
+		expectedValue = getItem_Expected_Value( JSONdata, "SP_current_price" )
+		if( expectedValue != null )
+			testResult = testResult + "{[EXP] currentStorePrice = " + expectedValue + " vs [ACT] currentStorePrice = null~";
+	}
+	//------------------------------------------------------------------------------------
+	if( originalStorePrice == null ) testResult = testResult + "originalStorePrice must not be null~";
+	if( priceCurrency == null ) testResult = testResult + "priceCurrency must not be null~";
+	if( storePromotionExists == null ) testResult = testResult + "storePromotionExists must not be null~";
+	//------------------------------------------------------------------------------------
+	if( storeAvailabilityCode == null ) 
+	{
+		expectedValue = getItem_Expected_Value( JSONdata, "sa_availability_code" )
+		if( expectedValue != null ) 
+			testResult = testResult + "{[EXP] storeAvailabilityCode = " + expectedValue + " vs [ACT] storeAvailabilityCode = null~";
+	}	
+	//------------------------------------------------------------------------------------
+	if( locations == null ) testResult = testResult + "locations must not be null~";
+	//------------------------------------------------------------------------------------
+	if( averageRating == null ) 
+	{
+		expectedValue = getItem_Expected_Value( JSONdata, "consolidated_overall_rating" )
+		if( expectedValue != null )
+			testResult = testResult + "{[EXP] averageRating = " + expectedValue + " vs [ACT] averageRating = null~";
+	}	
+	//------------------------------------------------------------------------------------
+	if( reviewCount == null ) 
+	{
+		expectedValue = getItem_Expected_Value( JSONdata, "total_reviews" )
+		if( expectedValue != null )
+			testResult = testResult + "{[EXP] reviewCount = " + expectedValue + " vs [ACT] reviewCount = null~";
+	}	
+	//------------------------------------------------------------------------------------
+	if( categoryId == null ) testResult = testResult + "categoryId must not be null~";
+	if( categoryName == null ) testResult = testResult + "categoryName must not be null";
+
+	return testResult;
+}
+//===============================================================
+String getItem_Expected_Value( String JSONdata, String JSONitem )
+//===============================================================
+{
+	//JOptionPane.showMessageDialog( null, "JSONdata: " + JSONdata + "JSONitem: " + JSONitem );
+
+	Map result = new JsonSlurper().parseText( JSONdata )
+	Map pcr = result.product_composite_response
+	List items = pcr.items
+	Map firstItem = items[0]
+	List store_product = firstItem.store_product;
+	Map online_price = firstItem.online_price;
+	Map store_price = firstItem.store_price;
+	Map review = firstItem.review;
+	Map online_availability = firstItem.online_availability
+	Map store_availability = firstItem.store_availability
+	String expectedValue;
+	switch(JSONitem)
+	{
+		case "consolidated_overall_rating": 	expectedValue = review.consolidated_overall_rating;			break;
+		case "total_reviews":				expectedValue = review.total_reviews;						break;
+		
+		case "sp_current_price_type_code":		expectedValue = store_product.price.current_price_type_code;	break;
+		case "sp_current_price":				expectedValue = store_product.price.current_price;			break;
+		case "sp_original_price":			expectedValue = store_product.price.original_price;			break;
+		case "sp_display_original_price":		expectedValue = store_product.price.display_original_price;		break;
+		
+		case "OP_current_price":				expectedValue = online_price.current_price;					break;
+		case "OP_original_price":			expectedValue = online_price.original_price;					break;
+		
+		case "SP_current_price":				expectedValue = store_price.current_price;					break;
+		case "SP_original_price":			expectedValue = store_price.original_price;					break;
+		
+		case "ov_item_status": 				expectedValue = online_availability.item_status;				break;
+		case "ov_availability_status":		expectedValue = online_availability.availability_status;		break;
+		case "ov_availability_code":			expectedValue = online_availability.availability_code;			break;
+		case "ov_available_quantity":			expectedValue = online_availability.available_quantity;		break;
+		case "ov_channel_availability_status":	expectedValue = online_availability.channel_availability_status;	break;
+		case "ov_channel_availability_code":	expectedValue = online_availability.channel_availability_code;	break;
+		case "ov_street_date":				expectedValue = online_availability.street_date;				break;
+		case "ov_launch_date":				expectedValue = online_availability.launch_date;				break;
+		
+		case "sa_item_status": 				expectedValue = store_availability.item_status;				break;
+		case "sa_availability_status":		expectedValue = store_availability.availability_status;		break;
+		case "sa_availability_code":			expectedValue = store_availability.availability_code;			break;
+		case "sa_available_quantity":			expectedValue = store_availability.available_quantity;			break;
+		case "sa_channel_availability_status":	expectedValue = store_availability.channel_availability_status;	break;
+		case "sa_channel_availability_code":	expectedValue = store_availability.channel_availability_code;	break;
+
+	}	
+	return expectedValue;
+}
+//==================================================================
+public static String copyFileToArray( String sFile, String service )
+//==================================================================
+{
+	File rfile = new File(sFile); 
+    	BufferedReader reader = null; 
+	reader = new BufferedReader(new FileReader(rfile));
+	String sLine, varLines, arrLines
+	Boolean bCollect = false
+	varLines = ""
+    	sLine = reader.readLine()
+    	sLine = sLine.trim();
+  	while ( sLine != null ){
+    		if( bCollect == true ) varLines = varLines + sLine + "~";
+    		if( sLine == service ) bCollect = true;
+    		if( bCollect == true && sLine[0] == "-" ) {bCollect = false;	break;}
+	    	sLine = reader.readLine();
+	    	sLine = sLine.trim();
+	} 
+	varLines = varLines.substring(0, varLines.length() - 1 )
+
+	return varLines; 
+}
+//=================
+Long getStartTime()
+//=================
+{
+	def DataTime = new Date();
+	Long lTime = DataTime.getTime();
+
+	return lTime
+}
+]]></script></con:config></con:testStep><con:properties/><con:reportParameters/><con:breakPoints><con:testStepId>3312d4d0-8914-4acd-8002-8f9be033f0d5</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>202ba493-7f86-49be-921d-f6920e64d614</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>03e92c67-4230-4150-9420-a9c0e67c5938</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>304e33ff-74b0-4a6c-83b1-8fc38cc8df52</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>0827f5f4-761f-4ef2-8fbe-cf47005fb3a0</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:testCase failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="groovy" searchProperties="true" id="df87c645-cb43-436d-8603-56452b437529" disabled="true"><con:settings/><con:testStep type="restrequest" name="Beacon Composite Info" disabled="true"><con:settings/><con:config service="http://www.tgtappdata.com" resourcePath="/v1/beacon/composite/{storeId}/{locationId}" methodName="Beacon Composite Info" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Beacon Composite Info" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://www.tgtappdata.com</con:endpoint><con:request/><con:originalUri>http://www.tgtappdata.com/v1/beacon/composite/1375/100</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="locationId" value="207"/>
+  <con:entry key="storeId" value="1375"/>
+</con:parameters><con:parameterOrder><con:entry>storeId</con:entry><con:entry>locationId</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="Old Groovy Script" disabled="true"><con:settings/><con:config><script><![CDATA[//JOptionPane.showMessageDialog(null, var_subItem_Type );
+
+package writer;
+
+import java.io.*;
+import java.lang.*;
+import java.text.*;
+import java.util.*; 
+import java.io.File; 
+import javax.swing.*;
+import java.io.FileReader; 
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.BufferedReader; 
+import java.io.BufferedWriter;
+import com.eviware.soapui.support.*;
+import java.io.FileNotFoundException; 
+import groovy.json.JsonSlurper;
+
+validate_Populated_Response_Values( "Beacon Composite Info", "products" )
+//=====================================================================================
+public void validate_Populated_Response_Values( String var_Service, String var_Branch ) 
+//=====================================================================================
+{
+	//-----------------
+	// Collect Response
+	//-----------------
+	testRunner.runTestStepByName(var_Service);
+	def Response = testRunner.testCase.testSteps[ var_Service ].testRequest.response.contentAsString
+	//JOptionPane.showMessageDialog(null, Response );
+	
+	//--------------------------
+	// Collect Items to validate
+	//--------------------------
+	def var_Items = ReadFile( "C:/Target Automation/Services/" + var_Service + "/" + var_Branch + " - nodes to validate.txt" )
+	def arr_Items = var_Items.split(",")
+	def int_Index = 0
+	def arr_subItem, var_Element, var_subItem_Type, var_subItem
+	def s_subItem, i_subItem, l_subItem, html_Output, bln_Error
+
+	//-------------
+	// Test Results
+	//-------------
+	def var_HTML_File = "C:/Target Automation/Services/" + var_Service + "/" + var_Branch + " - Validation Points.html"
+	AddTextToFile( var_HTML_File, "<html>", true )
+
+	def var_Ignore
+	//--------------------------------
+	// Split JSON per specified Branch
+	//--------------------------------
+	Object result = new JsonSlurper().parseText( Response )
+	Map jsonResult = (Map) result;
+	List Branches = (List) jsonResult.get(var_Branch);
+	Branches.each 
+	{ 
+		Branch ->
+		//---------------------------------------
+		// Loop through User defined check points
+		//---------------------------------------
+		while(int_Index < arr_Items.length )
+		{
+			//-----------------------------------------------------------
+			// Collect Node Type (Integer, String or  List) and Node Name
+			//-----------------------------------------------------------
+			var_Element = arr_Items[int_Index].trim()
+			arr_subItem = var_Element.split("_")
+			var_subItem_Type = arr_subItem[0]
+			var_subItem = arr_subItem[1]
+			int_Index = int_Index + 1
+			var_Ignore = var_Element.substring(0, 1 )
+	
+			if( var_Ignore != "'" )
+			{
+				switch(var_subItem_Type)
+				{
+					case "s": //String
+						s_subItem = (String) Branch.get(var_subItem);
+						html_Output = s_subItem		
+						break;
+					case "i": //Integer
+						i_subItem = (Integer) Branch.get(var_subItem);
+						html_Output = (String)i_subItem
+						break;
+					case "l": //List
+						l_subItem = (List) Branch.get(var_subItem);
+						html_Output = (String)l_subItem
+						break;
+				}
+				//------------------------------
+				// Error if Output value is NULL
+				//------------------------------
+				if( html_Output != null ){bln_Error = false}	
+				else if( html_Output == null ){bln_Error = true}	
+				html_Output = "<b>" + var_subItem + "</b>: " + html_Output
+				//--------------------------------------------------
+				// If Output value is NULL, turn line color into Red
+				//--------------------------------------------------
+				if( bln_Error == true )
+				{
+					html_Output = "<<<< FAILED >>>> " + html_Output
+					html_Output = "<a style='font-family:Candara;font-size:15px;color:red'>" + html_Output + "</a>"
+				}
+				html_Output = html_Output + "<br>"
+				//JOptionPane.showMessageDialog(null, var_Element + " " + html_Output );
+				AddTextToFile( var_HTML_File, html_Output, true )
+			}
+		}	
+		AddTextToFile( var_HTML_File, "<hr>", true )
+		int_Index = 0;
+	}
+	AddTextToFile( var_HTML_File, "</html>", true )
+}
+//===========================================================================
+public static void AddTextToFile( String sFile, String sText, boolean bAppend )
+//===========================================================================
+{
+	// Create file 
+    	FileWriter fstream = new FileWriter(sFile,bAppend);
+     BufferedWriter out = new BufferedWriter(fstream);
+     out.write(sText);
+     out.newLine();   
+     //Close the output stream
+     out.close();
+}
+//===========================================
+public static String ReadFile( String sFile )
+//===========================================
+{
+    	File rfile = new File(sFile); 
+    	BufferedReader reader = null; 
+	reader = new BufferedReader(new FileReader(rfile));
+	
+	def sLine, var_Lines, arr_Lines
+	
+	var_Lines = ""
+    	// -------------------------------
+    	// repeat until all lines are read 
+    	// -------------------------------
+    	sLine = reader.readLine()
+  	while ( sLine != null ) 
+    	{
+	    	var_Lines = var_Lines + sLine + ","
+	    	sLine = reader.readLine()
+	} 
+	var_Lines = var_Lines.substring(0, var_Lines.length() - 1 )
+	return var_Lines 
+}	
+]]></script></con:config></con:testStep><con:testStep type="groovy" name="Groovy Script" disabled="true"><con:settings/><con:config><script><![CDATA[//JOptionPane.showMessageDialog(null, var_subItem_Type )
+
+import javax.swing.*;
+import com.eviware.soapui.support.*
+import groovy.json.JsonSlurper
+
+validatePopulatedResponseValues("Beacon Composite Info", "products")
+//=====================================================================================
+void validatePopulatedResponseValues(String serviceName, String branchName)
+//=====================================================================================
+{
+  //-----------------
+  // Collect Response
+  //-----------------
+  testRunner.runTestStepByName(serviceName)
+  String responseText = testRunner.testCase.testSteps[serviceName].testRequest.response.contentAsString, testResult
+  //JOptionPane.showMessageDialog(null, Response )
+
+  String BASE_DIR = 'C:/Target Automation/Services'
+
+  //--------------------------
+  // Collect Items to validate
+  //--------------------------
+  String nodesToValidateText = new File("${BASE_DIR}/${serviceName}/${branchName} - nodes to validate.txt").text
+  List<String> nodesToValidate = nodesToValidateText.tokenize("\n")
+
+  Boolean ignoreNodeCheck
+  //-------------
+  // Test Results
+  //-------------
+  StringBuffer html = new StringBuffer()
+  html << "<html><body>"
+
+  String channelAvailabilityCode, onlinePrice, onlinePriceText, currentStorePrice, originalStorePrice
+  //--------------------------------
+  // Split JSON per specified Branch
+  //--------------------------------
+  Map jsonResults = new JsonSlurper().parseText(responseText) as Map
+  List<Map> branches = jsonResults.get(branchName) as List<Map>
+  branches.each { Map branch ->
+    //---------------------------------------
+    // Loop through User defined check points
+    //---------------------------------------
+    nodesToValidate.each 
+    { String nodeName ->
+    	 ignoreNodeCheck = false
+      nodeName = nodeName.trim()
+      //-----------------------------------------------------------
+      // Collect Node Type (Integer, String or  List) and Node Name
+      //-----------------------------------------------------------
+      List<String> subItems = nodeName.tokenize("_")
+      String subItemType = subItems[0]
+      String subItemName = subItems[1]
+      boolean ignore = nodeName[0] == "'"
+
+      if (!ignore) {
+        Object fieldValue = branch.get(subItemName)
+        String htmlValue = "<b>${subItemName}</b>: ${fieldValue}"
+	
+        if( subItemName == "channelAvailabilityCode" )
+        	channelAvailabilityCode = fieldValue
+        if( subItemName == "onlinePrice" )
+        	onlinePrice = fieldValue
+        if( subItemName == "onlinePriceText" )
+        	onlinePriceText = fieldValue
+        if( subItemName == "currentStorePrice" )
+        {
+        	currentStorePrice = fieldValue
+        	ignoreNodeCheck = true
+        }	
+        if( subItemName == "originalStorePrice" )
+        	originalStorePrice = fieldValue
+        	
+	//JOptionPane.showMessageDialog(null, "fieldValue: " + fieldValue );
+	   if( ignoreNodeCheck == false )
+	   {			
+	        if (fieldValue != null) {
+	          html << htmlValue
+	        } else {
+	        		
+	          html << '<a style="font-family:Candara;font-size:15px;color:red;"><<<< FAILED >>>> '
+	          html << htmlValue
+	          html << "</a>"
+	        }
+		   html << "<br/>"
+	   }		   
+      }
+    }
+    testResult = CheckPriceslog( channelAvailabilityCode, onlinePrice, onlinePriceText, currentStorePrice, originalStorePrice )
+    html << '<a style="font-family:Candara;font-size:18px;color:red;">' + testResult + "</a>"
+    html << "<hr/>"
+  }
+  html << "</body></html>"
+
+  String htmlFileName = "${BASE_DIR}/${serviceName}/${branchName} - Validation Points.html"
+  new File(htmlFileName).text = html
+}
+//======================================================
+String CheckPriceslog( 	String channelAvailabilityCode, 
+					String onlinePrice, 
+					String onlinePriceText, 
+					String currentStorePrice, 
+					String originalStorePrice )
+//======================================================
+{
+	
+	String testResult = "";
+	
+	switch(channelAvailabilityCode)
+	{
+		case "ONLINE_AND_STORES":
+			if( onlinePrice == null )
+				testResult = testResult + "onlinePrice should not be null " 
+			if( onlinePrice != null && onlinePriceText != "\$" + onlinePrice ) 
+				testResult = testResult + "onlinePrice (" + onlinePrice + ") <> onlinePriceText (" + onlinePriceText + ")"
+			if( originalStorePrice == null )
+				testResult = testResult + "originalStorePrice must not be null"
+			break;
+		case "STORES_ONLY":
+			break;
+		case "ONLINE_ONLY":
+			break;
+		
+	}
+	return testResult
+}
+]]></script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Beacon Composite Info TC Load Test" searchProperties="true" disabled="true"><con:settings/><con:testStep type="restrequest" name="Beacon Composite Info"><con:settings/><con:config service="http://www.tgtappdata.com" resourcePath="/v1/beacon/composite/{storeId}/{locationId}" methodName="Beacon Composite Info" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Beacon Composite Info" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://www.tgtappdata.com</con:endpoint><con:request/><con:originalUri>http://www.tgtappdata.com/v1/beacon/composite/1375/100</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="locationId" value="203"/>
+  <con:entry key="storeId" value="1375"/>
+</con:parameters><con:parameterOrder><con:entry>storeId</con:entry><con:entry>locationId</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:loadTest name="Beacon Composite Info Load Test"><con:settings><con:setting id="HttpSettings@close-connections">false</con:setting></con:settings><con:threadCount>5</con:threadCount><con:startDelay>0</con:startDelay><con:sampleInterval>250</con:sampleInterval><con:calculateTPSOnTimePassed>true</con:calculateTPSOnTimePassed><con:resetStatisticsOnThreadCountChange>true</con:resetStatisticsOnThreadCountChange><con:historyLimit>-1</con:historyLimit><con:testLimit>60</con:testLimit><con:limitType>TIME</con:limitType><con:loadStrategy><con:type>Simple</con:type></con:loadStrategy><con:assertion type="Step Status" name="Step Status"/><con:maxAssertionErrors>100</con:maxAssertionErrors><con:cancelExcessiveThreads>true</con:cancelExcessiveThreads><con:strategyInterval>500</con:strategyInterval></con:loadTest><con:properties/></con:testCase><con:properties/><con:reportParameters/></con:testSuite><con:requirements/><con:properties/><con:wssContainer/><con:databaseConnectionContainer/><con:oAuth2ProfileContainer/><con:reporting><con:reportTemplates/><con:xmlTemplates/><con:parameters/></con:reporting><con:sensitiveInformation/></con:soapui-project>

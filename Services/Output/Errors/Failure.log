@@ -1,0 +1,2102 @@
+Time to run URL (1003)
+~Service (Beacon Composite Info)
+[Store ID (1375) Location ID (203) dpci (007-01-0023) title (up&up Baby Diapers Bulk Pack - Size 4  (156 Count))
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (328)
+~Service (Beacon Composite Info)
+[Store ID (1375) Location ID (203) dpci (007-07-0226) title (up&up Unscented Baby Wipes Refill Pack - 800 Count)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (267)
+~Service (Beacon Composite Info)
+[Store ID (1375) Location ID (203) dpci (007-07-0049) title (up&up Sensitive Baby Wipes Refill Pack - 736 Count)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (404)
+~Service (Beacon Composite Info)
+[Store ID (1375) Location ID (203) dpci (007-08-0047) title (Johnson's Take Along Travel Pack)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (300)
+~Service (Beacon Composite Info)
+[Store ID (1375) Location ID (203) dpci (030-05-0377) title (Lansinoh® Disposable Nursing Pads 100ct)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (504)
+~Service (Beacon Composite Info)
+[Store ID (1375) Location ID (203) dpci (007-09-0233) title (up & up® Infant Formula  Advantage - 40oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (453)
+~Service (Beacon Composite Info)
+[Store ID (1375) Location ID (203) dpci (007-09-0209) title (Similac® Advance Ready-to-Feed - 2 fl oz bottles (8 pack))
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (420)
+~Service (Beacon Composite Info)
+[Store ID (1375) Location ID (203) dpci (030-04-1622) title (Boppy Bare Naked Nursing Pillow with $30 Bonus Gift - White)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (267)
+~Service (Beacon Composite Info)
+[Store ID (1375) Location ID (203) dpci (007-09-0234) title (up & up® Infant Formula  Gentle - 36oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (292)
+~Service (Beacon Composite Info)
+[Store ID (1375) Location ID (203) dpci (007-09-0231) title (up & up® Infant Formula Premium - 40oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (362)
+~Service (Beacon Composite Info)
+[Store ID (1375) Location ID (203) dpci (030-05-0627) title (Medela 5ct Quick Clean Micro-Steam Sterilizing Bags)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (322)
+~Service (Beacon Composite Info)
+[Store ID (1375) Location ID (203) dpci (030-05-2518) title (Munchkin High Capacity Bottle Drying Rack)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (506)
+~Service (Beacon Composite Info)
+[Store ID (1375) Location ID (206) dpci (212-04-0804) title (Archer Farms® Korean-Style Barbecue Slow Cooker Sauce - 17.1 oz.)
+{[EXP] onlinePrice = 3.29 vs [ACT] onlinePrice = null
+{[EXP] onlineAvailabilityCode = 3 vs [ACT] onlineAvailabilityCode = null
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (242)
+~Service (Beacon Composite Info)
+[Store ID (1375) Location ID (206) dpci (094-08-0512) title (Market Pantry Creamy Chocolate Plus Calorie Nutrition Shake - 6 Count)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (437)
+~Service (Beacon Composite Info)
+[Store ID (1375) Location ID (206) dpci (212-04-0811) title (Archer Farms® Indian Inspired Simmer Sauce - 16 oz.)
+{[EXP] onlinePrice = 3.29 vs [ACT] onlinePrice = null
+{[EXP] onlineAvailabilityCode = 3 vs [ACT] onlineAvailabilityCode = null
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (1317)
+~Service (Beacon Composite Info)
+[Store ID (1375) Location ID (206) dpci (231-10-1369) title (Archer Farms® Dark Chocolate Truffle Coffee K-Cups 18 ct)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (557)
+~Service (Beacon Composite Info)
+[Store ID (1375) Location ID (206) dpci (212-04-0793) title (Archer Farms® Hawaiian-Style Barbecue Sauce - 16.5 oz.)
+{[EXP] onlinePrice = 3.49 vs [ACT] onlinePrice = null
+{[EXP] onlineAvailabilityCode = 3 vs [ACT] onlineAvailabilityCode = null
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (254)
+~Service (Beacon Composite Info)
+[Store ID (1375) Location ID (206) dpci (231-10-2387) title (Archer Farms K-Cups Caramel Macchiato Decaf 18ct)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (322)
+~Service (Beacon Composite Info)
+[Store ID (1375) Location ID (206) dpci (212-04-0740) title (Archer Farms® Chile Lime Grilling Sauce - 11.85 oz.)
+{[EXP] onlinePrice = 2.99 vs [ACT] onlinePrice = null
+{[EXP] onlineAvailabilityCode = 3 vs [ACT] onlineAvailabilityCode = null
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (257)
+~Service (Beacon Composite Info)
+[Store ID (1375) Location ID (206) dpci (094-08-0800) title (Market Pantry® Vanilla Whey Protein Powder - 32 oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (615)
+~Service (Beacon Composite Info)
+[Store ID (1375) Location ID (206) dpci (094-08-0508) title (Market Pantry Creamy Vanilla Regular Calorie Nutrition Shake - 6 Count)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (435)
+~Service (Beacon Composite Info)
+[Store ID (1375) Location ID (206) dpci (094-08-0510) title (Market Pantry Creamy Chocolate Regular Calorie Nutrition Shake - 6 Count)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (599)
+~Service (Beacon Composite Info)
+[Store ID (1375) Location ID (206) dpci (231-10-2386) title (Archer Farms K-Cups Vanilla Bean Creme Brulee Decaf 18ct)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (549)
+~Service (Beacon Composite Info)
+[Store ID (1375) Location ID (206) dpci (231-10-1364) title (Archer Farms® House Blend Coffee Club Pack 48 ct)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (253)
+~Service (Beacon Composite Info)
+[Store ID (1375) Location ID (207) dpci (007-08-0016) title (Johnson's Bedtime Lotion - 27 oz.)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (279)
+~Service (Beacon Composite Info)
+[Store ID (1375) Location ID (207) dpci (037-05-2400) title (SheaMoisture African Black Soap Face & Body Bar - 3.5 oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (300)
+~Service (Beacon Composite Info)
+[Store ID (1375) Location ID (207) dpci (007-08-0070) title (Johnsons Baby Powder[COMMA] Original[COMMA] #3014 - 22 oz.)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (380)
+~Service (Beacon Composite Info)
+[Store ID (1375) Location ID (207) dpci (007-08-0396) title (Johnsons Baby Powder with Aloe & Vitamin E Pure Cornstarch - 22 oz.)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (539)
+~Service (Beacon Composite Info)
+[Store ID (1375) Location ID (207) dpci (049-00-2208) title (method® Waterfall Foaming Hand Wash - 10 oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+locations must not be null
+Time to run URL (696)
+~Service (Beacon Composite Info)
+[Store ID (1375) Location ID (207) dpci (049-00-1134) title (method® Sea Minerals Foaming Hand Wash Refill - 28 oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (297)
+~Service (Beacon Composite Info)
+[Store ID (1375) Location ID (207) dpci (037-11-0227) title (up & up™  Sport Sunscreen Continuous Spray SPF-30 Sport - Twin Pack)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (331)
+~Service (Beacon Composite Info)
+[Store ID (1375) Location ID (207) dpci (063-05-0025) title (Shea Moisture Curl Enhancing Smoothie - Coconut and Hibiscus (12 oz))
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (272)
+~Service (Beacon Composite Info)
+[Store ID (1375) Location ID (207) dpci (063-02-4274) title (Pantene Pro-V Nature Fusion Smoothing Shampoo with Avocado Oil - 21.1 oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (282)
+~Service (Beacon Composite Info)
+[Store ID (1375) Location ID (207) dpci (030-05-0088) title (Medela 2oz Tender Care Lanolin)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (508)
+~Service (Beacon Composite Info)
+[Store ID (1375) Location ID (207) dpci (049-00-0543) title (method® Sea Minerals Foaming Hand Wash - 10 oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (763)
+~Service (Beacon Composite Info)
+[Store ID (1375) Location ID (207) dpci (003-05-0823) title (Method Pink Grapefruit Gel Hand Wash Refill 34 oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (486)
+~Service (Beacon Composite Info)
+[Store ID (1375) Location ID (208) dpci (085-01-0013) title (Honeywell TurboForce Air Circulator - Black)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (298)
+~Service (Beacon Composite Info)
+[Store ID (1375) Location ID (208) dpci (072-08-0335) title (Mr. Coffee® Black 12-Cup Programmable Coffeemaker)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (349)
+~Service (Beacon Composite Info)
+[Store ID (1375) Location ID (208) dpci (085-01-0077) title (Honeywell QuietSet 8-Speed Tower Fan)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (232)
+~Service (Beacon Composite Info)
+[Store ID (1375) Location ID (208) dpci (072-01-0254) title (Emerson Microwave Oven - White)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (222)
+~Service (Beacon Composite Info)
+[Store ID (1375) Location ID (208) dpci (085-01-0477) title (Holmes Window Fan with Digital Thermostat)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (313)
+~Service (Beacon Composite Info)
+[Store ID (1375) Location ID (208) dpci (072-04-0098) title (George Foreman 4-Serving Removable Plate Grill)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (269)
+~Service (Beacon Composite Info)
+[Store ID (1375) Location ID (208) dpci (085-01-0074) title (Honeywell QuietSet 5-Speed Tower Fan)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (274)
+~Service (Beacon Composite Info)
+[Store ID (1375) Location ID (208) dpci (072-01-0213) title (Emerson Stainless Steel Microwave  - 1.3 Cu. Ft.)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (252)
+~Service (Beacon Composite Info)
+[Store ID (1375) Location ID (208) dpci (085-01-0019) title (Holmes Twin Window Fan)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (493)
+~Service (Beacon Composite Info)
+[Store ID (1375) Location ID (208) dpci (072-00-0031) title (Brita Space Saver System)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (300)
+~Service (Beacon Composite Info)
+[Store ID (1375) Location ID (208) dpci (085-01-0180) title (Lasko 20" Cyclone Fan with Remote)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (300)
+~Service (Beacon Composite Info)
+[Store ID (1375) Location ID (208) dpci (072-04-0422) title (Sunbeam Panini Maker)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (426)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (201) dpci (040-03-3293) title (Merona® Men's 1pk Boxers - Grey Houndstooth M)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (319)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (201) dpci (040-03-2193) title (Merona® Men's 1pk Clover Boxers - Navy M)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (362)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (201) dpci (040-01-1392) title (Mossimo Supply Co. Men's Black Camouflage Boxer Briefs - M)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (431)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (201) dpci (040-03-3077) title (Merona® Men's Poplin Boxers - Gray L)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (399)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (201) dpci (040-03-2209) title (Merona® Men's Woven Boxers - Black Skulls M)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (366)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (201) dpci (040-03-3188) title (Merona® Men's 4 Pack Plaid Boxers - Plaid M)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (680)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (201) dpci (040-01-1847) title (Mossimo Supply Co. Men's 1pk Boxer Briefs - Grey/Lime Green M)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating = 4 vs [ACT] averageRating = null
+Time to run URL (279)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (201) dpci (040-01-0191) title (Mossimo Supply Co. Men's 1pk Boxer Briefs - Blue/Green Stripe - M)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+locations must not be null
+{[EXP] averageRating = 3.5 vs [ACT] averageRating = null
+Time to run URL (1007)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (201) dpci (040-01-0750) title (Mossimo Supply Co. Men's 1pk Boxer Briefs - Grey/Navy M)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating = 3 vs [ACT] averageRating = null
+Time to run URL (656)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (202) dpci (024-07-2268) title (Mossimo Supply Co. Backpack - Green)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (621)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (202) dpci (021-01-2937) title (Pure Energy Women's Plus-Size Short-Sleeve V-Neck Tee - Black 3X)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating = 3 vs [ACT] averageRating = null
+Time to run URL (289)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (202) dpci (061-06-1719) title (Merona® Brown Skinny Braid Belt With Rectangle Tab - M)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating = 4 vs [ACT] averageRating = null
+Time to run URL (285)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (202) dpci (024-06-3299) title (Merona® Tote Handbag - Tan)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+locations must not be null
+Time to run URL (479)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (202) dpci (061-06-3633) title (Merona® Reversible Belt - Black/Leopard S)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (954)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (202) dpci (025-04-3501) title (C9 by Champion® Women's Athletic Socks 4-Pack - White Aqua 5-9)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (402)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (202) dpci (024-06-3516) title (Merona® Small Hobo Handbag - Tan)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating = 4.5 vs [ACT] averageRating = null
+Time to run URL (486)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (202) dpci (215-10-2504) title (Women's Statement Necklace - Coral/Gold (18"))
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+locations must not be null
+Time to run URL (585)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (202) dpci (021-01-2933) title (Pure Energy Women's Plus-Size Short-Sleeve V-Neck Tee - Blue 3X)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+locations must not be null
+{[EXP] averageRating = 4 vs [ACT] averageRating = null
+Time to run URL (284)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (203) dpci (007-07-0226) title (up&up Unscented Baby Wipes Refill Pack - 800 Count)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (308)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (203) dpci (007-08-0047) title (Johnson's Take Along Travel Pack)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (323)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (203) dpci (030-05-0377) title (Lansinoh® Disposable Nursing Pads 100ct)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (305)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (203) dpci (030-05-1056) title (Lansinoh® HPA® Lanolin)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (271)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (203) dpci (007-09-0233) title (up & up® Infant Formula  Advantage - 40oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (436)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (203) dpci (007-09-0209) title (Similac® Advance Ready-to-Feed - 2 fl oz bottles (8 pack))
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (319)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (203) dpci (007-09-0234) title (up & up® Infant Formula  Gentle - 36oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (481)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (203) dpci (007-09-0231) title (up & up® Infant Formula Premium - 40oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (267)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (203) dpci (030-05-0627) title (Medela 5ct Quick Clean Micro-Steam Sterilizing Bags)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (270)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (203) dpci (030-05-0284) title (Lansinoh® Breastmilk Storage Bags 50ct)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (265)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (203) dpci (030-05-0916) title (Boon Grass Countertop Bottle Drying Rack)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (343)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (203) dpci (030-05-1183) title (Medela 50pk Pump & Save Breastmilk Storage Bags)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (470)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (206) dpci (094-08-0512) title (Market Pantry Creamy Chocolate Plus Calorie Nutrition Shake - 6 Count)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (353)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (206) dpci (231-10-1369) title (Archer Farms® Dark Chocolate Truffle Coffee K-Cups 18 ct)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (487)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (206) dpci (231-10-2387) title (Archer Farms K-Cups Caramel Macchiato Decaf 18ct)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (273)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (206) dpci (094-08-0800) title (Market Pantry® Vanilla Whey Protein Powder - 32 oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (562)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (206) dpci (094-08-0508) title (Market Pantry Creamy Vanilla Regular Calorie Nutrition Shake - 6 Count)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (268)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (206) dpci (094-08-0510) title (Market Pantry Creamy Chocolate Regular Calorie Nutrition Shake - 6 Count)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (371)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (206) dpci (231-10-2383) title (Archer Farms K-Cups Dulce de Leche Latte 16ct)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (276)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (206) dpci (231-10-2394) title (Archer Farms K-Cups Strawberry Lemonade 16ct)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (376)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (206) dpci (231-10-2384) title (Keurig AF Vanilla Bean Latte 16ct)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (502)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (206) dpci (231-10-1214) title (Lipton K-Cup Refresh Sweet Tea 18ct)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (441)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (206) dpci (094-08-1574) title (Market Pantry Protein Performance Milk Shake - Chocolate)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (263)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (207) dpci (007-08-0070) title (Johnsons Baby Powder[COMMA] Original[COMMA] #3014 - 22 oz.)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (279)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (207) dpci (007-08-0396) title (Johnsons Baby Powder with Aloe & Vitamin E Pure Cornstarch - 22 oz.)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (288)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (207) dpci (049-00-1134) title (method® Sea Minerals Foaming Hand Wash Refill - 28 oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (272)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (207) dpci (063-05-0025) title (Shea Moisture Curl Enhancing Smoothie - Coconut and Hibiscus (12 oz))
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (371)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (207) dpci (063-02-4274) title (Pantene Pro-V Nature Fusion Smoothing Shampoo with Avocado Oil - 21.1 oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (281)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (207) dpci (030-05-0088) title (Medela 2oz Tender Care Lanolin)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (259)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (207) dpci (049-00-0543) title (method® Sea Minerals Foaming Hand Wash - 10 oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (387)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (207) dpci (003-05-0823) title (Method Pink Grapefruit Gel Hand Wash Refill 34 oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (308)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (207) dpci (049-00-0911) title (method® Sweet Water  Hand Wash - 12 oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (493)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (207) dpci (063-02-4574) title (Pantene Pro-V Everlasting Ends Hair Conditioner - 22.8 oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (343)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (207) dpci (049-00-0704) title (method® Sweet Water Foaming Hand Wash Refill - 28 oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (430)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (207) dpci (063-02-1174) title (Extra Strength Minoxidil Hair Regrowth Treatment for Men)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (358)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (208) dpci (085-01-0077) title (Honeywell QuietSet 8-Speed Tower Fan)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (269)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (208) dpci (072-08-0335) title (Mr. Coffee® Black 12-Cup Programmable Coffeemaker)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (509)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (208) dpci (085-01-0477) title (Holmes Window Fan with Digital Thermostat)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (548)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (208) dpci (072-04-0098) title (George Foreman 4-Serving Removable Plate Grill)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (394)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (208) dpci (085-01-0180) title (Lasko 20" Cyclone Fan with Remote)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (334)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (208) dpci (072-01-0213) title (Emerson Stainless Steel Microwave  - 1.3 Cu. Ft.)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+locations must not be null
+Time to run URL (257)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (208) dpci (072-05-0122) title (Sunbeam Purple/White Steam Master Retractable Cord Iron)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (341)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (208) dpci (072-00-0031) title (Brita Space Saver System)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (334)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (208) dpci (085-01-0230) title (Holmes Metal Stand Fan - Oil-Rubbed Bronze)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating = 4 vs [ACT] averageRating = null
+Time to run URL (603)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (208) dpci (072-08-0484) title (Mr. Coffee® 12 cup Programmable Coffeemaker)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (310)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (208) dpci (085-01-0320) title (Honeywell QuietSet 16" Stand Fan Black)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (288)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (208) dpci (072-04-0422) title (Sunbeam Panini Maker)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (455)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (201) dpci (040-01-0612) title (Mossimo Supply Co. Men's Stars Print Boxer Briefs - Blue M)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (517)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (201) dpci (040-03-2209) title (Merona® Men's Woven Boxers - Black Skulls M)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (267)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (201) dpci (040-03-3188) title (Merona® Men's 4 Pack Plaid Boxers - Plaid M)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (284)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (201) dpci (040-01-0191) title (Mossimo Supply Co. Men's 1pk Boxer Briefs - Blue/Green Stripe - M)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating = 3.5 vs [ACT] averageRating = null
+Time to run URL (597)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (201) dpci (026-14-0261) title (Mossimo Supply Co. Oversized Strap Watch with Decorative Dials - Blue)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (582)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (201) dpci (026-01-1794) title (Timex Weekender™ Full-Size Slip Thru Replacement 20mm Strap - Black/Orange - T7B963TV)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (363)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (202) dpci (024-07-2269) title (Mossimo Supply Co. Polka Dot Backpack Handbag - Pink)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (373)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (202) dpci (024-07-2742) title (Mossimo Supply Co. Aztec Backpack Handbag - Black/Gray)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (369)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (202) dpci (024-07-2268) title (Mossimo Supply Co. Backpack - Green)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (381)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (202) dpci (024-07-2743) title (Mossimo Supply Co. Blue Polka Dot Backpack Handbag - Gray)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (265)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (202) dpci (024-07-2750) title (Mossimo Supply Co. Gold Zipper Backpack Handbag - Black)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (558)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (202) dpci (096-12-0024) title (Womens Mossimo Supply Co. Lunea Oxford - Grey 8)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating = 4 vs [ACT] averageRating = null
+Time to run URL (578)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (202) dpci (024-07-2751) title (Mossimo Supply Co. Cat Backpack Handbag - Ivory)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (444)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (202) dpci (024-07-2272) title (Mossimo Supply Co. Backpack Handbag - Brown)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (287)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (202) dpci (021-01-2937) title (Pure Energy Women's Plus-Size Short-Sleeve V-Neck Tee - Black 3X)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating = 3 vs [ACT] averageRating = null
+Time to run URL (421)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (202) dpci (024-07-2667) title (Mossimo Supply Co. Pizza/Hamburger Backpack Handbag - Black)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (298)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (202) dpci (024-07-2668) title (Mossimo Supply Co. Floral Backpack Handbag - Black)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (479)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (202) dpci (024-06-3274) title (Merona® Zip Closure Satchel Handbag - Butternut)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (323)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (203) dpci (007-01-0023) title (up&up Baby Diapers Bulk Pack - Size 4  (156 Count))
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (275)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (203) dpci (007-07-0226) title (up&up Unscented Baby Wipes Refill Pack - 800 Count)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (423)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (203) dpci (007-07-0049) title (up&up Sensitive Baby Wipes Refill Pack - 736 Count)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (291)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (203) dpci (007-08-0047) title (Johnson's Take Along Travel Pack)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (270)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (203) dpci (030-05-0377) title (Lansinoh® Disposable Nursing Pads 100ct)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (262)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (203) dpci (030-05-1056) title (Lansinoh® HPA® Lanolin)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (264)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (203) dpci (007-01-0080) title (up&up Baby Diapers Big Pack Size 1 (112 Count))
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating = 4.5 vs [ACT] averageRating = null
+Time to run URL (293)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (203) dpci (007-09-0233) title (up & up® Infant Formula  Advantage - 40oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (276)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (203) dpci (007-09-0209) title (Similac® Advance Ready-to-Feed - 2 fl oz bottles (8 pack))
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (271)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (203) dpci (030-04-1622) title (Boppy Bare Naked Nursing Pillow with $30 Bonus Gift - White)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (499)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (203) dpci (007-09-0234) title (up & up® Infant Formula  Gentle - 36oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (253)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (203) dpci (007-09-0231) title (up & up® Infant Formula Premium - 40oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (430)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (204) dpci (056-03-0008) title (Epson WorkForce WF-2530 All-in-One Wireless Multifunction Inkjet Printer - Black (C11CC37201))
+cartwheelOffers must not be null
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (233)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (204) dpci (057-00-2576) title (Fitbit Flex Wireless Wristband - Black (FB401BKT))
+cartwheelOffers must not be null
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (521)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (204) dpci (262-01-0031) title (Target 3-Year Service Plan (covers items $200.00-$299.99))
+cartwheelOffers must not be null
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (290)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (204) dpci (057-00-1900) title (The new Apple TV® - Black (MD199LL/A))
+cartwheelOffers must not be null
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (234)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (204) dpci (057-00-3550) title (Fitbit Flex Wireless Activity & Sleep Tracker - Violet (FB401VT))
+cartwheelOffers must not be null
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (539)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (204) dpci (056-10-0756) title (Polaroid 300 Film 10 Pack (PIF-300))
+cartwheelOffers must not be null
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (234)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (204) dpci (057-00-2577) title (Fitbit Flex Wireless Wristband - Slate (FB401SLT))
+cartwheelOffers must not be null
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (246)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (204) dpci (056-09-0041) title (Vtech DECT 6.0 Cordless Phone System (CS6519) with Caller ID and Call Waiting[COMMA] 1 Handset - Silver)
+cartwheelOffers must not be null
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (282)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (204) dpci (262-01-0032) title (Target 3-Year Service Plan (covers items $300.00-$499.99))
+cartwheelOffers must not be null
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+locations must not be null
+Time to run URL (249)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (204) dpci (057-10-2006) title (Apple iPod shuffle 2GB MP3 Player - Space Gray (ME949LL/A))
+cartwheelOffers must not be null
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (232)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (204) dpci (008-03-0121) title (Bose® SoundLink® Mini Bluetooth® Speaker (359037-1300))
+cartwheelOffers must not be null
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (449)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (204) dpci (276-01-0089) title ($100 iTunes Gift Card)
+cartwheelOffers must not be null
+{[EXP] onlineAvailabilityCode = 0 vs [ACT] onlineAvailabilityCode = null
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (459)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (206) dpci (212-04-0794) title (Archer Farms® Carolina-Style Barbecue Sauce - 16 oz.)
+{[EXP] onlinePrice = 3.49 vs [ACT] onlinePrice = null
+{[EXP] onlineAvailabilityCode = 3 vs [ACT] onlineAvailabilityCode = null
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (350)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (206) dpci (231-10-0251) title (Keurig Brewed Eight O'Clock Colombian Coffee K-Cups[COMMA] 18 Ct.)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (578)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (206) dpci (212-04-0804) title (Archer Farms® Korean-Style Barbecue Slow Cooker Sauce - 17.1 oz.)
+{[EXP] onlinePrice = 3.29 vs [ACT] onlinePrice = null
+{[EXP] onlineAvailabilityCode = 3 vs [ACT] onlineAvailabilityCode = null
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (687)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (206) dpci (094-08-0512) title (Market Pantry Creamy Chocolate Plus Calorie Nutrition Shake - 6 Count)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (518)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (206) dpci (212-04-0665) title (Archer Farms® Hot Chile Pineapple Grilling Sauce - 11.85 oz.)
+{[EXP] onlinePrice = 2.99 vs [ACT] onlinePrice = null
+{[EXP] onlineAvailabilityCode = 3 vs [ACT] onlineAvailabilityCode = null
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (345)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (206) dpci (231-10-1369) title (Archer Farms® Dark Chocolate Truffle Coffee K-Cups 18 ct)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (576)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (206) dpci (212-04-0811) title (Archer Farms® Indian Inspired Simmer Sauce - 16 oz.)
+{[EXP] onlinePrice = 3.29 vs [ACT] onlinePrice = null
+{[EXP] onlineAvailabilityCode = 3 vs [ACT] onlineAvailabilityCode = null
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (304)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (206) dpci (231-10-2387) title (Archer Farms K-Cups Caramel Macchiato Decaf 18ct)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (534)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (206) dpci (212-04-0793) title (Archer Farms® Hawaiian-Style Barbecue Sauce - 16.5 oz.)
+{[EXP] onlinePrice = 3.49 vs [ACT] onlinePrice = null
+{[EXP] onlineAvailabilityCode = 3 vs [ACT] onlineAvailabilityCode = null
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (449)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (206) dpci (094-08-0800) title (Market Pantry® Vanilla Whey Protein Powder - 32 oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (346)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (206) dpci (212-04-0740) title (Archer Farms® Chile Lime Grilling Sauce - 11.85 oz.)
+{[EXP] onlinePrice = 2.99 vs [ACT] onlinePrice = null
+{[EXP] onlineAvailabilityCode = 3 vs [ACT] onlineAvailabilityCode = null
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (272)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (206) dpci (094-08-0508) title (Market Pantry Creamy Vanilla Regular Calorie Nutrition Shake - 6 Count)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (298)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (207) dpci (007-08-0016) title (Johnson's Bedtime Lotion - 27 oz.)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (483)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (207) dpci (037-05-2400) title (SheaMoisture African Black Soap Face & Body Bar - 3.5 oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (413)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (207) dpci (007-08-0070) title (Johnsons Baby Powder[COMMA] Original[COMMA] #3014 - 22 oz.)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (292)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (207) dpci (007-08-0396) title (Johnsons Baby Powder with Aloe & Vitamin E Pure Cornstarch - 22 oz.)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (370)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (207) dpci (049-00-1134) title (method® Sea Minerals Foaming Hand Wash Refill - 28 oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (485)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (207) dpci (037-11-0227) title (up & up™  Sport Sunscreen Continuous Spray SPF-30 Sport - Twin Pack)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (398)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (207) dpci (063-02-4274) title (Pantene Pro-V Nature Fusion Smoothing Shampoo with Avocado Oil - 21.1 oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (286)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (207) dpci (030-05-0088) title (Medela 2oz Tender Care Lanolin)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (249)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (207) dpci (049-00-0543) title (method® Sea Minerals Foaming Hand Wash - 10 oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (560)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (207) dpci (003-05-0823) title (Method Pink Grapefruit Gel Hand Wash Refill 34 oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (553)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (207) dpci (003-05-0266) title (Method Unscented Gel Hand Wash Refill 34 oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (459)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (207) dpci (049-00-0911) title (method® Sweet Water  Hand Wash - 12 oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (302)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (208) dpci (085-01-0013) title (Honeywell TurboForce Air Circulator - Black)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (270)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (208) dpci (072-08-0335) title (Mr. Coffee® Black 12-Cup Programmable Coffeemaker)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (304)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (208) dpci (085-01-0077) title (Honeywell QuietSet 8-Speed Tower Fan)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (262)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (208) dpci (072-01-0254) title (Emerson Microwave Oven - White)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (273)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (208) dpci (085-01-0477) title (Holmes Window Fan with Digital Thermostat)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (281)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (208) dpci (072-04-0098) title (George Foreman 4-Serving Removable Plate Grill)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (298)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (208) dpci (085-01-0074) title (Honeywell QuietSet 5-Speed Tower Fan)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (464)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (208) dpci (072-01-0213) title (Emerson Stainless Steel Microwave  - 1.3 Cu. Ft.)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (255)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (208) dpci (085-01-0019) title (Holmes Twin Window Fan)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (290)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (208) dpci (072-00-0031) title (Brita Space Saver System)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (268)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (208) dpci (085-01-0180) title (Lasko 20" Cyclone Fan with Remote)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (379)
+~Service (Beacon Composite Info)
+[Store ID (2300) Location ID (208) dpci (072-08-0484) title (Mr. Coffee® 12 cup Programmable Coffeemaker)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (365)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (201) dpci (040-03-3293) title (Merona® Men's 1pk Boxers - Grey Houndstooth M)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (269)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (201) dpci (040-03-2193) title (Merona® Men's 1pk Clover Boxers - Navy M)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (251)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (201) dpci (040-01-1392) title (Mossimo Supply Co. Men's Black Camouflage Boxer Briefs - M)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (541)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (201) dpci (040-03-3077) title (Merona® Men's Poplin Boxers - Gray L)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (352)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (201) dpci (040-03-2209) title (Merona® Men's Woven Boxers - Black Skulls M)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (474)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (201) dpci (040-03-3188) title (Merona® Men's 4 Pack Plaid Boxers - Plaid M)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (262)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (201) dpci (040-01-1847) title (Mossimo Supply Co. Men's 1pk Boxer Briefs - Grey/Lime Green M)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating = 4 vs [ACT] averageRating = null
+Time to run URL (597)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (201) dpci (026-14-0261) title (Mossimo Supply Co. Oversized Strap Watch with Decorative Dials - Blue)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (588)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (201) dpci (040-01-0750) title (Mossimo Supply Co. Men's 1pk Boxer Briefs - Grey/Navy M)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating = 3 vs [ACT] averageRating = null
+Time to run URL (335)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (202) dpci (024-07-2268) title (Mossimo Supply Co. Backpack - Green)
+cartwheelOffers must not be null
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (275)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (202) dpci (016-00-6851) title (Women's Favorite V-Neck Tee - Black - M)
+cartwheelOffers must not be null
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating = 4 vs [ACT] averageRating = null
+Time to run URL (655)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (202) dpci (022-05-0917) title (Women's Micro Seamless Bikini - Ebony M)
+cartwheelOffers must not be null
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (528)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (202) dpci (061-08-2414) title (Merona® Striped Scarf - Blue)
+cartwheelOffers must not be null
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+locations must not be null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (265)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (202) dpci (214-05-6041) title (C9 by Champion® Women's Reversible Stripe Compression Racer Sports Bra - Black/Yellow M)
+cartwheelOffers must not be null
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating = 4.5 vs [ACT] averageRating = null
+Time to run URL (413)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (202) dpci (214-06-3051) title (C9 by Champion® Women's Premium Seamless Yoga Capri - Black M)
+cartwheelOffers must not be null
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+locations must not be null
+{[EXP] averageRating = 4.5 vs [ACT] averageRating = null
+Time to run URL (486)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (202) dpci (023-01-1263) title (Women's Nursing Sleep Bra 2-Pack - Bankers Gray M)
+cartwheelOffers must not be null
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+locations must not be null
+Time to run URL (641)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (202) dpci (025-04-1264) title (Hanes® Premium Women's 6+2 Pack Athletic Liner Sock White 5-9)
+cartwheelOffers must not be null
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (627)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (202) dpci (022-05-1403) title (Women's Lace Trim Boyshort - Black L)
+cartwheelOffers must not be null
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (401)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (202) dpci (022-04-1214) title (Junior's Cotton Hipster - Aqua Dot JM)
+cartwheelOffers must not be null
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (472)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (202) dpci (061-08-2296) title (Merona® Floral Scarf - Blue)
+cartwheelOffers must not be null
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+locations must not be null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (363)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (202) dpci (061-06-1719) title (Merona® Brown Skinny Braid Belt With Rectangle Tab - M)
+cartwheelOffers must not be null
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating = 4 vs [ACT] averageRating = null
+Time to run URL (371)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (203) dpci (007-07-0049) title (up&up Sensitive Baby Wipes Refill Pack - 736 Count)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (365)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (203) dpci (007-08-0047) title (Johnson's Take Along Travel Pack)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (333)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (203) dpci (030-05-0377) title (Lansinoh® Disposable Nursing Pads 100ct)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (248)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (203) dpci (030-05-1056) title (Lansinoh® HPA® Lanolin)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (343)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (203) dpci (007-09-0233) title (up & up® Infant Formula  Advantage - 40oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (337)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (203) dpci (007-09-0209) title (Similac® Advance Ready-to-Feed - 2 fl oz bottles (8 pack))
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (306)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (203) dpci (030-04-1622) title (Boppy Bare Naked Nursing Pillow with $30 Bonus Gift - White)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (293)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (203) dpci (007-09-0234) title (up & up® Infant Formula  Gentle - 36oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (244)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (203) dpci (007-09-0231) title (up & up® Infant Formula Premium - 40oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (322)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (203) dpci (030-05-0627) title (Medela 5ct Quick Clean Micro-Steam Sterilizing Bags)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (293)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (203) dpci (030-02-1676) title (Circo® Fitted Crib Sheet - Grey Chevron)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating = 4.5 vs [ACT] averageRating = null
+Time to run URL (239)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (203) dpci (030-05-0284) title (Lansinoh® Breastmilk Storage Bags 50ct)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (394)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (206) dpci (094-08-0512) title (Market Pantry Creamy Chocolate Plus Calorie Nutrition Shake - 6 Count)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (259)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (206) dpci (231-10-1369) title (Archer Farms® Dark Chocolate Truffle Coffee K-Cups 18 ct)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (217)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (206) dpci (231-10-2387) title (Archer Farms K-Cups Caramel Macchiato Decaf 18ct)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (271)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (206) dpci (094-08-0800) title (Market Pantry® Vanilla Whey Protein Powder - 32 oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (255)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (206) dpci (094-08-0508) title (Market Pantry Creamy Vanilla Regular Calorie Nutrition Shake - 6 Count)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (276)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (206) dpci (094-08-0510) title (Market Pantry Creamy Chocolate Regular Calorie Nutrition Shake - 6 Count)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (620)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (206) dpci (231-10-2386) title (Archer Farms K-Cups Vanilla Bean Creme Brulee Decaf 18ct)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (351)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (206) dpci (231-10-2383) title (Archer Farms K-Cups Dulce de Leche Latte 16ct)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (375)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (206) dpci (231-10-2394) title (Archer Farms K-Cups Strawberry Lemonade 16ct)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (257)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (206) dpci (231-10-2384) title (Keurig AF Vanilla Bean Latte 16ct)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (389)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (206) dpci (231-10-1214) title (Lipton K-Cup Refresh Sweet Tea 18ct)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (342)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (207) dpci (007-08-0016) title (Johnson's Bedtime Lotion - 27 oz.)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (366)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (207) dpci (007-08-0070) title (Johnsons Baby Powder[COMMA] Original[COMMA] #3014 - 22 oz.)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (292)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (207) dpci (007-08-0396) title (Johnsons Baby Powder with Aloe & Vitamin E Pure Cornstarch - 22 oz.)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (365)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (207) dpci (049-00-2208) title (method® Waterfall Foaming Hand Wash - 10 oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+locations must not be null
+Time to run URL (281)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (207) dpci (037-11-0227) title (up & up™  Sport Sunscreen Continuous Spray SPF-30 Sport - Twin Pack)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (305)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (207) dpci (063-05-0025) title (Shea Moisture Curl Enhancing Smoothie - Coconut and Hibiscus (12 oz))
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (421)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (207) dpci (063-02-4274) title (Pantene Pro-V Nature Fusion Smoothing Shampoo with Avocado Oil - 21.1 oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (345)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (207) dpci (030-05-0088) title (Medela 2oz Tender Care Lanolin)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (337)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (207) dpci (049-00-0543) title (method® Sea Minerals Foaming Hand Wash - 10 oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (309)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (207) dpci (003-05-0823) title (Method Pink Grapefruit Gel Hand Wash Refill 34 oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (353)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (207) dpci (049-00-0911) title (method® Sweet Water  Hand Wash - 12 oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (445)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (207) dpci (063-02-4574) title (Pantene Pro-V Everlasting Ends Hair Conditioner - 22.8 oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (511)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (208) dpci (085-01-0077) title (Honeywell QuietSet 8-Speed Tower Fan)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (317)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (208) dpci (072-08-0335) title (Mr. Coffee® Black 12-Cup Programmable Coffeemaker)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (265)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (208) dpci (085-01-0180) title (Lasko 20" Cyclone Fan with Remote)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (244)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (208) dpci (072-01-0254) title (Emerson Microwave Oven - White)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (373)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (208) dpci (072-07-0556) title (Shark Rotator™ Professional Lift-Away - White/Red (NV501))
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (218)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (208) dpci (072-04-0098) title (George Foreman 4-Serving Removable Plate Grill)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (490)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (208) dpci (085-01-0080) title (Lasko 12" Performance Table Fan - Black)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (243)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (208) dpci (072-01-0213) title (Emerson Stainless Steel Microwave  - 1.3 Cu. Ft.)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (550)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (208) dpci (072-07-1309) title (BISSELL® Professional Deep Cleaning Formula - 48 oz.)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (710)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (208) dpci (072-00-0031) title (Brita Space Saver System)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (407)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (208) dpci (072-07-0718) title (BISSELL Professional Pet Urine Eliminator[COMMA] 48 oz.)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (258)
+~Service (Beacon Composite Info)
+[Store ID (2786) Location ID (208) dpci (072-08-0484) title (Mr. Coffee® 12 cup Programmable Coffeemaker)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (495)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (201) dpci (040-03-3293) title (Merona® Men's 1pk Boxers - Grey Houndstooth M)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (496)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (201) dpci (040-03-2193) title (Merona® Men's 1pk Clover Boxers - Navy M)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (275)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (201) dpci (040-01-1392) title (Mossimo Supply Co. Men's Black Camouflage Boxer Briefs - M)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (398)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (201) dpci (040-03-3077) title (Merona® Men's Poplin Boxers - Gray L)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (301)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (201) dpci (040-03-2209) title (Merona® Men's Woven Boxers - Black Skulls M)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (268)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (201) dpci (040-03-3188) title (Merona® Men's 4 Pack Plaid Boxers - Plaid M)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (653)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (201) dpci (040-01-1847) title (Mossimo Supply Co. Men's 1pk Boxer Briefs - Grey/Lime Green M)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating = 4 vs [ACT] averageRating = null
+Time to run URL (301)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (201) dpci (040-01-0191) title (Mossimo Supply Co. Men's 1pk Boxer Briefs - Blue/Green Stripe - M)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+locations must not be null
+{[EXP] averageRating = 3.5 vs [ACT] averageRating = null
+Time to run URL (561)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (201) dpci (040-01-0750) title (Mossimo Supply Co. Men's 1pk Boxer Briefs - Grey/Navy M)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating = 3 vs [ACT] averageRating = null
+Time to run URL (221)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (202) dpci (024-07-2268) title (Mossimo Supply Co. Backpack - Green)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (414)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (202) dpci (021-01-2937) title (Pure Energy Women's Plus-Size Short-Sleeve V-Neck Tee - Black 3X)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating = 3 vs [ACT] averageRating = null
+Time to run URL (832)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (202) dpci (061-06-1719) title (Merona® Brown Skinny Braid Belt With Rectangle Tab - M)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating = 4 vs [ACT] averageRating = null
+Time to run URL (511)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (202) dpci (024-06-3299) title (Merona® Tote Handbag - Tan)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+locations must not be null
+Time to run URL (491)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (202) dpci (061-06-3633) title (Merona® Reversible Belt - Black/Leopard S)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (269)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (202) dpci (025-04-3501) title (C9 by Champion® Women's Athletic Socks 4-Pack - White Aqua 5-9)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (361)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (202) dpci (024-06-3516) title (Merona® Small Hobo Handbag - Tan)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating = 4.5 vs [ACT] averageRating = null
+Time to run URL (592)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (202) dpci (215-10-2504) title (Women's Statement Necklace - Coral/Gold (18"))
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+locations must not be null
+Time to run URL (309)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (202) dpci (021-01-2933) title (Pure Energy Women's Plus-Size Short-Sleeve V-Neck Tee - Blue 3X)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+locations must not be null
+{[EXP] averageRating = 4 vs [ACT] averageRating = null
+Time to run URL (280)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (203) dpci (007-07-0226) title (up&up Unscented Baby Wipes Refill Pack - 800 Count)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (345)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (203) dpci (007-08-0047) title (Johnson's Take Along Travel Pack)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (306)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (203) dpci (030-05-0377) title (Lansinoh® Disposable Nursing Pads 100ct)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (302)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (203) dpci (030-05-1056) title (Lansinoh® HPA® Lanolin)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (270)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (203) dpci (007-09-0233) title (up & up® Infant Formula  Advantage - 40oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (259)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (203) dpci (007-09-0209) title (Similac® Advance Ready-to-Feed - 2 fl oz bottles (8 pack))
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (311)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (203) dpci (007-09-0234) title (up & up® Infant Formula  Gentle - 36oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (362)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (203) dpci (007-09-0231) title (up & up® Infant Formula Premium - 40oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (377)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (203) dpci (030-05-0627) title (Medela 5ct Quick Clean Micro-Steam Sterilizing Bags)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (1206)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (203) dpci (030-05-0284) title (Lansinoh® Breastmilk Storage Bags 50ct)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (284)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (203) dpci (030-05-0916) title (Boon Grass Countertop Bottle Drying Rack)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (413)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (203) dpci (030-05-1183) title (Medela 50pk Pump & Save Breastmilk Storage Bags)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (294)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (206) dpci (094-08-0512) title (Market Pantry Creamy Chocolate Plus Calorie Nutrition Shake - 6 Count)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (259)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (206) dpci (231-10-1369) title (Archer Farms® Dark Chocolate Truffle Coffee K-Cups 18 ct)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (225)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (206) dpci (231-10-2387) title (Archer Farms K-Cups Caramel Macchiato Decaf 18ct)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (251)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (206) dpci (094-08-0800) title (Market Pantry® Vanilla Whey Protein Powder - 32 oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (299)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (206) dpci (094-08-0508) title (Market Pantry Creamy Vanilla Regular Calorie Nutrition Shake - 6 Count)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (479)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (206) dpci (094-08-0510) title (Market Pantry Creamy Chocolate Regular Calorie Nutrition Shake - 6 Count)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (505)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (206) dpci (231-10-2383) title (Archer Farms K-Cups Dulce de Leche Latte 16ct)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (561)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (206) dpci (231-10-2394) title (Archer Farms K-Cups Strawberry Lemonade 16ct)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (369)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (206) dpci (231-10-2384) title (Keurig AF Vanilla Bean Latte 16ct)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (259)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (206) dpci (231-10-1214) title (Lipton K-Cup Refresh Sweet Tea 18ct)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (585)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (206) dpci (094-08-1574) title (Market Pantry Protein Performance Milk Shake - Chocolate)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (282)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (207) dpci (007-08-0070) title (Johnsons Baby Powder[COMMA] Original[COMMA] #3014 - 22 oz.)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (318)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (207) dpci (007-08-0396) title (Johnsons Baby Powder with Aloe & Vitamin E Pure Cornstarch - 22 oz.)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (258)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (207) dpci (049-00-1134) title (method® Sea Minerals Foaming Hand Wash Refill - 28 oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (950)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (207) dpci (063-05-0025) title (Shea Moisture Curl Enhancing Smoothie - Coconut and Hibiscus (12 oz))
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (249)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (207) dpci (063-02-4274) title (Pantene Pro-V Nature Fusion Smoothing Shampoo with Avocado Oil - 21.1 oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (480)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (207) dpci (030-05-0088) title (Medela 2oz Tender Care Lanolin)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (294)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (207) dpci (049-00-0543) title (method® Sea Minerals Foaming Hand Wash - 10 oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (349)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (207) dpci (003-05-0823) title (Method Pink Grapefruit Gel Hand Wash Refill 34 oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (459)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (207) dpci (049-00-0911) title (method® Sweet Water  Hand Wash - 12 oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (256)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (207) dpci (063-02-4574) title (Pantene Pro-V Everlasting Ends Hair Conditioner - 22.8 oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (316)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (207) dpci (049-00-0704) title (method® Sweet Water Foaming Hand Wash Refill - 28 oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (269)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (207) dpci (063-02-1174) title (Extra Strength Minoxidil Hair Regrowth Treatment for Men)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (765)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (208) dpci (085-01-0077) title (Honeywell QuietSet 8-Speed Tower Fan)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (335)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (208) dpci (072-08-0335) title (Mr. Coffee® Black 12-Cup Programmable Coffeemaker)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (254)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (208) dpci (085-01-0477) title (Holmes Window Fan with Digital Thermostat)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (258)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (208) dpci (072-04-0098) title (George Foreman 4-Serving Removable Plate Grill)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (629)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (208) dpci (085-01-0180) title (Lasko 20" Cyclone Fan with Remote)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (284)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (208) dpci (072-01-0213) title (Emerson Stainless Steel Microwave  - 1.3 Cu. Ft.)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+locations must not be null
+Time to run URL (522)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (208) dpci (072-05-0122) title (Sunbeam Purple/White Steam Master Retractable Cord Iron)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (274)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (208) dpci (072-00-0031) title (Brita Space Saver System)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (714)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (208) dpci (085-01-0230) title (Holmes Metal Stand Fan - Oil-Rubbed Bronze)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating = 4 vs [ACT] averageRating = null
+Time to run URL (455)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (208) dpci (072-08-0484) title (Mr. Coffee® 12 cup Programmable Coffeemaker)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (281)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (208) dpci (085-01-0320) title (Honeywell QuietSet 16" Stand Fan Black)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (265)
+~Service (Beacon Composite Info)
+[Store ID (2766) Location ID (208) dpci (072-04-0422) title (Sunbeam Panini Maker)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (312)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (201) dpci (040-03-3293) title (Merona® Men's 1pk Boxers - Grey Houndstooth M)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (1240)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (201) dpci (040-03-2193) title (Merona® Men's 1pk Clover Boxers - Navy M)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (621)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (201) dpci (040-01-1392) title (Mossimo Supply Co. Men's Black Camouflage Boxer Briefs - M)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (288)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (201) dpci (040-03-2209) title (Merona® Men's Woven Boxers - Black Skulls M)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (310)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (201) dpci (040-03-3188) title (Merona® Men's 4 Pack Plaid Boxers - Plaid M)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (313)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (201) dpci (040-01-1847) title (Mossimo Supply Co. Men's 1pk Boxer Briefs - Grey/Lime Green M)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating = 4 vs [ACT] averageRating = null
+Time to run URL (297)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (201) dpci (040-01-0750) title (Mossimo Supply Co. Men's 1pk Boxer Briefs - Grey/Navy M)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating = 3 vs [ACT] averageRating = null
+Time to run URL (460)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (202) dpci (024-07-2151) title (Mossimo Supply Co. Crossbody Handbag - Brown)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (396)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (202) dpci (021-01-2937) title (Pure Energy Women's Plus-Size Short-Sleeve V-Neck Tee - Black 3X)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating = 3 vs [ACT] averageRating = null
+Time to run URL (467)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (202) dpci (061-06-1719) title (Merona® Brown Skinny Braid Belt With Rectangle Tab - M)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating = 4 vs [ACT] averageRating = null
+Time to run URL (269)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (202) dpci (061-06-3633) title (Merona® Reversible Belt - Black/Leopard S)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (560)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (202) dpci (096-12-1610) title (Women's Mad Love Lydia Loafer - Black 8)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating = 4.5 vs [ACT] averageRating = null
+Time to run URL (528)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (202) dpci (025-04-3501) title (C9 by Champion® Women's Athletic Socks 4-Pack - White Aqua 5-9)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (402)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (202) dpci (024-06-3516) title (Merona® Small Hobo Handbag - Tan)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating = 4.5 vs [ACT] averageRating = null
+Time to run URL (249)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (202) dpci (215-10-2504) title (Women's Statement Necklace - Coral/Gold (18"))
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+locations must not be null
+Time to run URL (277)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (202) dpci (021-01-2933) title (Pure Energy Women's Plus-Size Short-Sleeve V-Neck Tee - Blue 3X)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+locations must not be null
+{[EXP] averageRating = 4 vs [ACT] averageRating = null
+Time to run URL (328)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (203) dpci (030-05-0377) title (Lansinoh® Disposable Nursing Pads 100ct)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (319)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (203) dpci (030-05-1056) title (Lansinoh® HPA® Lanolin)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (675)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (203) dpci (007-09-0233) title (up & up® Infant Formula  Advantage - 40oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (253)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (203) dpci (007-09-0209) title (Similac® Advance Ready-to-Feed - 2 fl oz bottles (8 pack))
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (331)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (203) dpci (030-04-1622) title (Boppy Bare Naked Nursing Pillow with $30 Bonus Gift - White)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (320)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (203) dpci (007-09-0231) title (up & up® Infant Formula Premium - 40oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (276)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (203) dpci (030-05-0627) title (Medela 5ct Quick Clean Micro-Steam Sterilizing Bags)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (229)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (203) dpci (030-02-1676) title (Circo® Fitted Crib Sheet - Grey Chevron)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating = 4.5 vs [ACT] averageRating = null
+Time to run URL (275)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (203) dpci (030-05-0284) title (Lansinoh® Breastmilk Storage Bags 50ct)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (299)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (203) dpci (030-05-0916) title (Boon Grass Countertop Bottle Drying Rack)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (295)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (203) dpci (030-05-1183) title (Medela 50pk Pump & Save Breastmilk Storage Bags)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (314)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (203) dpci (030-04-0233) title (Boppy Bare Naked Pillow with Slipcover & $30 Bonus Gift - Pink Owls)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (713)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (206) dpci (094-08-0512) title (Market Pantry Creamy Chocolate Plus Calorie Nutrition Shake - 6 Count)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (278)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (206) dpci (231-10-1369) title (Archer Farms® Dark Chocolate Truffle Coffee K-Cups 18 ct)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (322)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (206) dpci (231-10-2387) title (Archer Farms K-Cups Caramel Macchiato Decaf 18ct)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (360)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (206) dpci (094-08-0800) title (Market Pantry® Vanilla Whey Protein Powder - 32 oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (421)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (206) dpci (094-08-0508) title (Market Pantry Creamy Vanilla Regular Calorie Nutrition Shake - 6 Count)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (333)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (206) dpci (094-08-0510) title (Market Pantry Creamy Chocolate Regular Calorie Nutrition Shake - 6 Count)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (436)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (206) dpci (231-10-2383) title (Archer Farms K-Cups Dulce de Leche Latte 16ct)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (779)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (206) dpci (231-10-2394) title (Archer Farms K-Cups Strawberry Lemonade 16ct)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (305)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (206) dpci (231-10-2384) title (Keurig AF Vanilla Bean Latte 16ct)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (420)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (206) dpci (231-10-1214) title (Lipton K-Cup Refresh Sweet Tea 18ct)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (480)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (207) dpci (007-08-0016) title (Johnson's Bedtime Lotion - 27 oz.)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (319)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (207) dpci (037-05-2400) title (SheaMoisture African Black Soap Face & Body Bar - 3.5 oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (293)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (207) dpci (007-08-0070) title (Johnsons Baby Powder[COMMA] Original[COMMA] #3014 - 22 oz.)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (322)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (207) dpci (007-08-0396) title (Johnsons Baby Powder with Aloe & Vitamin E Pure Cornstarch - 22 oz.)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (407)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (207) dpci (049-00-2208) title (method® Waterfall Foaming Hand Wash - 10 oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (389)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (207) dpci (049-00-1134) title (method® Sea Minerals Foaming Hand Wash Refill - 28 oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (621)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (207) dpci (037-11-0227) title (up & up™  Sport Sunscreen Continuous Spray SPF-30 Sport - Twin Pack)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (406)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (207) dpci (063-05-0025) title (Shea Moisture Curl Enhancing Smoothie - Coconut and Hibiscus (12 oz))
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (346)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (207) dpci (063-02-4274) title (Pantene Pro-V Nature Fusion Smoothing Shampoo with Avocado Oil - 21.1 oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating =  vs [ACT] averageRating = null
+Time to run URL (375)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (207) dpci (030-05-0088) title (Medela 2oz Tender Care Lanolin)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (491)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (207) dpci (049-00-2209) title (method® Minnie Mouse Strawberry Fizz Foaming Hand Wash - 8.5 oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (374)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (207) dpci (049-00-0543) title (method® Sea Minerals Foaming Hand Wash - 10 oz)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (469)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (208) dpci (085-01-0477) title (Holmes Window Fan with Digital Thermostat)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (297)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (208) dpci (072-08-0335) title (Mr. Coffee® Black 12-Cup Programmable Coffeemaker)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (383)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (208) dpci (085-01-0074) title (Honeywell QuietSet 5-Speed Tower Fan)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (350)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (208) dpci (072-01-0254) title (Emerson Microwave Oven - White)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (363)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (208) dpci (085-01-0180) title (Lasko 20" Cyclone Fan with Remote)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (290)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (208) dpci (072-04-0098) title (George Foreman 4-Serving Removable Plate Grill)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (762)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (208) dpci (085-01-0032) title (Holmes 18" Stand Fan with Remote Control - Black)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (308)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (208) dpci (072-01-0213) title (Emerson Stainless Steel Microwave  - 1.3 Cu. Ft.)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (348)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (208) dpci (072-05-0122) title (Sunbeam Purple/White Steam Master Retractable Cord Iron)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (307)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (208) dpci (072-00-0031) title (Brita Space Saver System)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+Time to run URL (527)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (208) dpci (085-01-0230) title (Holmes Metal Stand Fan - Oil-Rubbed Bronze)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+{[EXP] averageRating = 4 vs [ACT] averageRating = null
+Time to run URL (292)
+~Service (Beacon Composite Info)
+[Store ID (2799) Location ID (208) dpci (072-08-0484) title (Mr. Coffee® 12 cup Programmable Coffeemaker)
+storePromotionExists must not be null
+{[EXP] storeAvailabilityCode = 3 vs [ACT] storeAvailabilityCode = null
+[Total Time (3.9182832) minutes

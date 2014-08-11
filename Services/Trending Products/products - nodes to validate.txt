@@ -1,0 +1,9 @@
+s_dpci
+i_tcin
+i_storeId
+s_name
+s_price
+s_priceCurrency
+'s_categoryId
+'s_categoryName
+s_thumbUrl

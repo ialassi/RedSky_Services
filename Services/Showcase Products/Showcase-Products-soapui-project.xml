@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project activeEnvironment="Default" name="Showcase Products" resourceRoot="" soapui-version="5.0.0" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:RestService" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://www-stage.tgtappdata.com" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>http://www-stage.tgtappdata.com</con:endpoint></con:endpoints><con:resource name="Store" path="/v1/products/showcase/{name}/{store}"><con:settings/><con:parameters><con:parameter><con:name>name</con:name><con:value>name</con:value><con:style>TEMPLATE</con:style><con:default>name</con:default><con:path xsi:nil="true"/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>store</con:name><con:value>store</con:value><con:style>TEMPLATE</con:style><con:default>store</con:default><con:path xsi:nil="true"/><con:description xsi:nil="true"/></con:parameter></con:parameters><con:method name="Store" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json;charset=UTF-8</con:mediaType><con:status>200</con:status><con:params/><con:element>Response</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType>application/json;charset=UTF-8</con:mediaType><con:status>404</con:status><con:params/><con:element xmlns:ns="http://www-stage.tgtappdata.com/v1/products/showcase/top-deals/1375">ns:Fault</con:element></con:representation><con:request name="Showcase Products RT" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://www-stage.tgtappdata.com</con:endpoint><con:request/><con:originalUri>http://www-stage.tgtappdata.com/v1/products/showcase/top-deals/1375</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="store" value="5"/>
+  <con:entry key="name" value="awesomeshop"/>
+</con:parameters><con:parameterOrder><con:entry>name</con:entry><con:entry>store</con:entry></con:parameterOrder></con:request></con:method></con:resource></con:interface><con:testSuite name="Showcase Products TS"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Showcase Products TC" searchProperties="true" id="107a8534-b5f2-4a63-8dd0-ced9527d248e"><con:settings/><con:testStep type="properties" name="Showcase Products DS"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>name</con:name><con:value>trending-top-viewed</con:value></con:property><con:property><con:name>store</con:name><con:value>5</con:value></con:property><con:property><con:name>Ignore</con:name><con:value/></con:property></con:properties></con:config></con:testStep><con:testStep type="restrequest" name="Showcase Products" id="671054d7-ed2e-42e1-b33b-1064d7c688e8"><con:settings/><con:config service="http://www-stage.tgtappdata.com" resourcePath="/v1/products/showcase/{name}/{store}" methodName="Store" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Showcase Products" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://www-stage.tgtappdata.com</con:endpoint><con:request/><con:originalUri>http://www-stage.tgtappdata.com/v1/products/showcase/top-deals/1375</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="store" value="${Showcase Products DS#store}"/>
+  <con:entry key="name" value="${Showcase Products DS#name}"/>
+</con:parameters><con:parameterOrder><con:entry>name</con:entry><con:entry>store</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="Showcase Products GS"><con:settings/><con:config><script><![CDATA[import javax.swing.*;
+import com.eviware.soapui.support.*
+import groovy.json.JsonSlurper
+
+servicePath = "/jenkins/Services/"
+servicePath = "C:/Target Automation/Services/"
+
+String filename 
+String errPath = servicePath + "Output/Errors/"
+filename = errPath + "Failure.log" 
+Boolean fileSuccessfullyDeleted = new File(filename).delete()
+//-----------------------------------------------------------
+validate_Populated_Response_Values( "Showcase Products", "" )
+//-----------------------------------------------------------
+File f = new File( filename );
+if(f.exists()){
+	String MainErrfilename = errPath + "All_Failures.html"
+	String fileContent = ReadFile( filename )
+	String [] arrValues = fileContent.split(",")
+	String varLine, varLines
+	varLines = ""
+	if( fileContent.length() > 0 )
+	{
+		for( intArrayIndex = 0; intArrayIndex < arrValues.length; intArrayIndex++ )
+		{
+			varLine = arrValues[intArrayIndex]
+			firstChar = varLine[0]
+			if( firstChar == "~" ) varLines = varLines + "<hr>";
+			if( firstChar == "~" || firstChar == "(" || firstChar == "[" )
+			{
+				varLine = varLine.substring( 1, varLine.length() );
+			}
+			switch(firstChar)
+			{
+				case "~":	varLine = "<a style='font-family:Candara;font-size:20px;color:Orange;'>" + varLine + "</a><br>"; break;
+				case "(":	varLine = "<a style='font-family:Candara;font-size:15px;color:blue;'>" + varLine + "</a><br>"; break; 
+				case "[":	varLine = "<a style='font-family:Candara;font-size:15px;color:purple;'>" + varLine + "</a><br>"; break;
+				default: varLine = "<a style='font-family:Candara;font-size:15px;color:#005A1A;'>" + varLine + "</a><br>"; break;
+			}
+			varLines = varLines + varLine
+		}
+		AddTextToFile( MainErrfilename, varLines, true )
+	}
+}		
+//=====================================================================================
+public void validate_Populated_Response_Values( String var_Service, String var_Branch ) 
+//=====================================================================================
+{
+	String testResult
+	String dpci = "",
+		  tcin = "",
+		  storeId = "",
+		  name = "",
+		  price = "",
+		  priceCurrency = "",
+		  categoryId = "",
+		  categoryName = "",
+		  ImageURLPattern = ""
+	String varLines = copyFileToArray( servicePath + "RedSky.srv", var_Service )
+	//JOptionPane.showMessageDialog( null, "varLines: " + varLines );
+
+	String [] testResultArray;	
+	String [] arrLines = varLines.split("~")
+	String [] arrColumns;
+	String [] arrParams;
+	String [] arrServiceValues;
+		
+	Integer iArrayColumnIndex;
+	String varColumns, varColumn;
+	String varValues, varValue; 
+	String varParams, varParam;
+	varValues = ""
+	//---------------------------
+	// Collect Columns and Values
+	//---------------------------
+	for( iArrayIndex = 0; iArrayIndex < arrLines.length-1; iArrayIndex++ )
+	{
+		varValue = arrLines[iArrayIndex]	
+		if( iArrayIndex == 0 ) arrColumns = varValue.split(",");
+		else if( iArrayIndex > 0) varValues = varValues + varValue + "~";
+	}
+	//JOptionPane.showMessageDialog( null, "arrColumns: " + arrColumns );
+	//JOptionPane.showMessageDialog( null, "varValues: " + varValues );
+	varValues = varValues.substring(0, varValues.length() - 1 )
+	//JOptionPane.showMessageDialog( null, "varValues: " + varValues );
+	arrServiceValues = varValues.split("~");
+	//--------------------
+	// Populate Parameters
+	//--------------------
+	WebServiceProps = testRunner.testCase.getTestStepByName( var_Service + " DS" );
+	for( iArrayIndex = 0; iArrayIndex < arrServiceValues.length; iArrayIndex++ )
+	{
+		for( iArrayColumnIndex = 0; iArrayColumnIndex < arrColumns.length; iArrayColumnIndex++ )
+		{
+			varColumn = arrColumns[iArrayColumnIndex]
+			varParams = arrServiceValues[iArrayIndex]
+			arrParams = varParams.split(",")
+			varParam = arrParams[iArrayColumnIndex]
+			varParam = varParam.trim();
+			switch(varColumn.trim())
+			{
+				case "name":
+					WebServiceProps.setPropertyValue( "name", varParam );
+					Name = WebServiceProps.getPropertyValue( "name" );
+					break;
+				case "store":
+					WebServiceProps.setPropertyValue( "store", varParam );
+					Store = WebServiceProps.getPropertyValue( "store" );
+					break;
+				case "Ignore":
+					WebServiceProps.setPropertyValue( "Ignore", varParam );
+					Ignore = WebServiceProps.getPropertyValue( "Ignore" );
+					break;
+			}
+		}
+		if( Ignore != "Y" )
+		{
+			//-----------------
+			// Collect Response
+			//-----------------
+			testRunner.runTestStepByName(var_Service);
+			String Response = testRunner.testCase.testSteps[ var_Service ].testRequest.response.contentAsString
+			//JOptionPane.showMessageDialog( null, Response );
+	
+			//--------------------------
+			// Collect Items to validate
+			//--------------------------
+			String var_Items = ReadFile( servicePath + var_Service + "/nodes to validate.txt" )
+			String [] arr_Items = var_Items.split(",")
+			Integer int_Index = 0
+			def arr_subItem, var_Element, var_subItem_Type, subItemName, s_subItem, i_subItem, l_subItem
+			//--------------------------------
+			// Split JSON per specified Branch
+			//--------------------------------
+			List<Map> parsedData = (List<Map>)new JsonSlurper().parseText( Response );  
+			for ( Map aObject : parsedData )
+			{  
+				while(int_Index < arr_Items.length )
+				{
+					//-----------------------------------------------------------
+					// Collect Node Type (Integer, String or  List) and Node Name
+					//-----------------------------------------------------------
+					var_Element = arr_Items[int_Index].trim()
+					arr_subItem = var_Element.split("_")
+					var_subItem_Type = arr_subItem[0]
+					subItemName = arr_subItem[1]
+					int_Index = int_Index + 1
+					//-----------------------------------
+					// ignore reporting on specified Node
+					//-----------------------------------
+					if( var_Element[0] != "'" )
+					{
+						Object fieldValue = aObject.get(subItemName)
+						
+						if( subItemName == "dpci" ) dpci = fieldValue;
+						if( subItemName == "tcin" ) tcin = fieldValue;
+						if( subItemName == "storeId" ) storeId = fieldValue;
+						if( subItemName == "name" ) name = fieldValue;
+						if( subItemName == "price" ) price = fieldValue;
+						if( subItemName == "priceCurrency" ) priceCurrency = fieldValue;
+						if( subItemName == "categoryId" ) categoryId = fieldValue;
+						if( subItemName == "categoryName" ) categoryName = fieldValue;
+						if( subItemName == "ImageURLPattern" ) ImageURLPattern = fieldValue;
+					}
+				}
+			   	testResult = CheckResponseValues( Name, 
+			   							    dpci, 
+			   							    tcin, 
+			   							    storeId,
+			   							    name,
+			   							    price,
+			   							    priceCurrency,
+			   							    categoryId,
+			   							    categoryName,
+			   							    ImageURLPattern )
+				if( testResult.length() > 0 )
+		   		{
+			   		testResultArray = testResult.split("~")
+					AddTextToFile( servicePath + "Output/Errors/Failure.log", "~Service (" + var_Service + ")", true )
+					for( intArrayIndex = 0; intArrayIndex < testResultArray.length; intArrayIndex++)
+					{
+					   	//JOptionPane.showMessageDialog( null, testResultArray[intArrayIndex] );
+						AddTextToFile( servicePath + "Output/Errors/Failure.log", testResultArray[intArrayIndex], true )
+					}	
+			   	}
+				int_Index = 0;
+			}
+		}
+	}		
+}
+//===========================================================================
+public static void AddTextToFile( String sFile, String sText, boolean bAppend )
+//===========================================================================
+{
+	// Create file 
+    	FileWriter fstream = new FileWriter(sFile,bAppend);
+     BufferedWriter out = new BufferedWriter(fstream);
+     out.write(sText);
+     out.newLine();   
+     //Close the output stream
+     out.close();
+}
+//===========================================
+public static String ReadFile( String sFile )
+//===========================================
+{
+    	File rfile = new File(sFile); 
+    	BufferedReader reader = null; 
+	reader = new BufferedReader(new FileReader(rfile));
+	
+	def sLine, var_Lines, arr_Lines
+	
+	var_Lines = ""
+    	// -------------------------------
+    	// repeat until all lines are read 
+    	// -------------------------------
+    	sLine = reader.readLine()
+  	while ( sLine != null ) 
+    	{
+	    	var_Lines = var_Lines + sLine + ","
+	    	sLine = reader.readLine()
+	} 
+	var_Lines = var_Lines.substring(0, var_Lines.length() - 1 )
+	return var_Lines 
+}
+//==================================================
+String CheckResponseValues( String Name, 
+					   String dpci, 
+		   			   String tcin, 
+		   			   String storeId,
+		   			   String name,
+		   			   String price,
+		   			   String priceCurrency,
+		   			   String categoryId,
+		   			   String categoryName,
+		   			   String ImageURLPattern )
+//==================================================
+{
+	String testResult = ""
+	try
+	{
+		if( dpci == null ) testResult = testResult + "dpci must not be null~"; 
+		if( tcin == null ) testResult = testResult + "tcin must not be null~";  
+		if( storeId == null ) testResult = testResult + "storeId must not be null~"; 
+		if( name == null ) testResult = testResult + "name must not be null~"; 
+		if( price == null ) testResult = testResult + "price must not be null~"; 
+		if( priceCurrency == null ) testResult = testResult + "priceCurrency must not be null~"; 
+		if( Name == "top-deals" ) 
+		{
+			if( categoryId == null ) testResult = testResult + "categoryId must not be null~"; 
+			if( categoryName == null ) testResult = testResult + "categoryName must not be null~"; 
+		}	
+		if( ImageURLPattern == null ) testResult = testResult + "ImageURLPattern must not be null"; 	
+	}
+	catch(err)
+	{
+		"";
+	}
+
+	return testResult;
+}
+//==================================================================
+public static String copyFileToArray( String sFile, String service )
+//==================================================================
+{
+	File rfile = new File(sFile); 
+    	BufferedReader reader = null; 
+	reader = new BufferedReader(new FileReader(rfile));
+	String sLine, varLines, arrLines
+	Boolean bCollect = false
+	varLines = ""
+    	sLine = reader.readLine()
+    	sLine = sLine.trim();
+  	while ( sLine != null ){
+    		if( bCollect == true ) varLines = varLines + sLine + "~";
+    		if( sLine == service ) bCollect = true;
+    		if( bCollect == true && sLine[0] == "-" ) {bCollect = false;	break;}
+	    	sLine = reader.readLine();
+	    	sLine = sLine.trim();
+	} 
+	varLines = varLines.substring(0, varLines.length() - 1 )
+
+	return varLines; 
+}]]></script></con:config></con:testStep><con:properties/><con:reportParameters/><con:breakPoints><con:testStepId>671054d7-ed2e-42e1-b33b-1064d7c688e8</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>27d437d4-01e6-4e8c-b3da-874f08e746a4</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:testCase failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Showcase Products Load Test" searchProperties="true" disabled="true"><con:settings/><con:testStep type="restrequest" name="Showcase Products RT"><con:settings/><con:config service="http://www-stage.tgtappdata.com" resourcePath="/v1/products/showcase/{name}/{store}" methodName="Store" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Showcase Products RT" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://www-stage.tgtappdata.com</con:endpoint><con:request/><con:originalUri>http://www-stage.tgtappdata.com/v1/products/showcase/top-deals/1375</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="store" value="1375"/>
+  <con:entry key="name" value="trending-top-viewed"/>
+</con:parameters><con:parameterOrder><con:entry>name</con:entry><con:entry>store</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:loadTest name="Showcase Products Load Test"><con:settings><con:setting id="HttpSettings@close-connections">false</con:setting></con:settings><con:threadCount>5</con:threadCount><con:startDelay>0</con:startDelay><con:sampleInterval>250</con:sampleInterval><con:calculateTPSOnTimePassed>true</con:calculateTPSOnTimePassed><con:resetStatisticsOnThreadCountChange>true</con:resetStatisticsOnThreadCountChange><con:historyLimit>-1</con:historyLimit><con:testLimit>60</con:testLimit><con:limitType>TIME</con:limitType><con:loadStrategy><con:type>Simple</con:type></con:loadStrategy><con:assertion type="Step Status" name="Step Status"/><con:maxAssertionErrors>100</con:maxAssertionErrors><con:cancelExcessiveThreads>true</con:cancelExcessiveThreads><con:strategyInterval>500</con:strategyInterval></con:loadTest><con:properties/></con:testCase><con:properties/><con:reportParameters/></con:testSuite><con:requirements/><con:properties/><con:wssContainer/><con:databaseConnectionContainer/><con:oAuth2ProfileContainer/><con:reporting><con:reportTemplates/><con:xmlTemplates/><con:parameters/></con:reporting><con:sensitiveInformation/></con:soapui-project>
