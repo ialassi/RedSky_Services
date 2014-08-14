@@ -1,7 +1,7 @@
-Beacon Composite Info
+-Beacon Composite Info
 -Get Nearby
 -QR Code
 -Product Detail Page
 -RedSky Stores Service
--Search Listing Page (SLP) / Product Listing Page (PLP)
+Search Listing Page SLP Product Listing Page PLP
 -RedSky Recipe Service

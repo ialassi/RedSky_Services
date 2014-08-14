@@ -38,7 +38,7 @@ Ignore`URL`Params
 `http://www-stage.tgtappdata.com/v2/stores/nearby/seattle?capabilities=optical`
 --------------------------------------------
 ############################################
-Search Listing Page (SLP) / Product Listing Page (PLP)
+Search Listing Page SLP Product Listing Page PLP
 Ignore`URL`Params
 `http://www-stage.tgtappdata.com/v1/products/list/4?searchTerm=lego+star+wars`
 `http://www-stage.tgtappdata.com/v1/products/list/4?categoryId=4694`

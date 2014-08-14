@@ -14,6 +14,14 @@ Integer intRedSkyServicesIndex
 
 String filename, report, logPath
 
+logPath = servicePath + "Output/Logs/"
+String MainLogfilename = logPath + "All_Logs.html"
+
+File objFile;
+
+objFile = new File( MainLogfilename );
+if(objFile.exists()) 
+	Boolean fileSuccessfullyDeleted = new File(MainLogfilename).delete()
 WebServiceProps = testRunner.testCase.getTestStepByName( "Properties" );
 //------------------------------------------------------------------------------------------------------------
 for( intRedSkyServicesIndex = 0; intRedSkyServicesIndex < arrRedSkyServices.length; intRedSkyServicesIndex++ )
@@ -23,7 +31,7 @@ for( intRedSkyServicesIndex = 0; intRedSkyServicesIndex < arrRedSkyServices.leng
 	if( strRedSkyService[0] != "-")
 	{
 		WebServiceProps.setPropertyValue( "RedSky Service Name", strRedSkyService );
-		//JOptionPane.showMessageDialog( null, strRedSkyService );
+		JOptionPane.showMessageDialog( null, strRedSkyService );
 		testRunner.runTestStepByName("RedSky Service");
 	}	
 }
@@ -32,15 +40,12 @@ for( intRedSkyServicesIndex = 0; intRedSkyServicesIndex < arrRedSkyServices.leng
 //------------------------------------------------------------------------------------------------------------
 {
 	strRedSkyService = arrRedSkyServices[intRedSkyServicesIndex]
-	logPath = servicePath + "Output/Logs/"
 	filename = logPath + strRedSkyService + " Report.log" 
 
-	File f = new File( filename );
-	if(f.exists()){
+	objFile = new File( filename );
+	if(objFile.exists()){
 		//JOptionPane.showMessageDialog( null, filename + " exists" );
-		String MainLogfilename = logPath + "All_Logs.html"
 		String fileContent = ReadFile( filename )
-		
 		String [] arrValues = fileContent.split("`")
 		varLines = ""
 		if( fileContent.length() > 0 )
@@ -105,7 +110,7 @@ public static void AddTextToFile( String sFile, String sText, boolean bAppend )
      out.close();
 }
 
-]]></script></con:config></con:testStep><con:testStep type="properties" name="Properties"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>Ignore</con:name><con:value/></con:property><con:property><con:name>URL</con:name><con:value>http://www.tgtappdata.com/v1/beacon/composite/1375/100?min=2&amp;limit=10</con:value></con:property><con:property><con:name>Params</con:name><con:value/></con:property><con:property><con:name>RedSky Service Name</con:name><con:value>Beacon Composite Info</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="groovy" name="RedSky Service"><con:settings/><con:config><script>import javax.swing.*;
+]]></script></con:config></con:testStep><con:testStep type="properties" name="Properties"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>Ignore</con:name><con:value/></con:property><con:property><con:name>URL</con:name><con:value>http://www.tgtappdata.com/v1/products/list/4?endecaId=5ewil</con:value></con:property><con:property><con:name>Params</con:name><con:value/></con:property><con:property><con:name>RedSky Service Name</con:name><con:value>Search Listing Page SLP Product Listing Page PLP</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="groovy" name="RedSky Service"><con:settings/><con:config><script>import javax.swing.*;
 import com.eviware.soapui.support.*
 import groovy.json.JsonSlurper
 
