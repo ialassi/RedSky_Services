@@ -28,8 +28,8 @@
   <con:entry key="ThreadCount" value=""/>
   <con:entry key="Limit" value=""/>
 </xml-fragment>]]></con:setting></con:settings><con:interface xsi:type="con:RestService" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://www.tgtappdata.com" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>http://www.tgtappdata.com</con:endpoint></con:endpoints><con:resource name="LocationId" path="/v1/beacon/composite/{storeId}/{locationId}"><con:settings/><con:parameters><con:parameter><con:name>storeId</con:name><con:value>storeId</con:value><con:style>TEMPLATE</con:style><con:default>storeId</con:default><con:path xsi:nil="true"/><con:description xsi:nil="true"/></con:parameter><con:parameter><con:name>locationId</con:name><con:value>locationId</con:value><con:style>TEMPLATE</con:style><con:default>locationId</con:default><con:path xsi:nil="true"/><con:description xsi:nil="true"/></con:parameter></con:parameters><con:method name="Beacon Composite Info" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json;charset=UTF-8</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:ns="http://www.tgtappdata.com/v1/beacon/composite/1375/100">ns:Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType>text/html;charset=utf-8</con:mediaType><con:status>404</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="FAULT"><con:mediaType>text/plain; charset=UTF-8</con:mediaType><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType>text/html; charset=utf-8</con:mediaType><con:status>407</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="Beacon Composite Info" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://www.tgtappdata.com</con:endpoint><con:request/><con:originalUri>http://www.tgtappdata.com/v1/beacon/composite/1375/100</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
-  <con:entry key="locationId" value="201"/>
-  <con:entry key="storeId" value="2766"/>
+  <con:entry key="locationId" value="206"/>
+  <con:entry key="storeId" value="2799"/>
 </con:parameters><con:parameterOrder><con:entry>storeId</con:entry><con:entry>locationId</con:entry></con:parameterOrder></con:request></con:method></con:resource></con:interface><con:testSuite name="Beacon Composite Info TS"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase failOnError="false" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Beacon Composite Info TC" searchProperties="true" id="4079bbee-837e-429c-9d44-8579d7b856bd" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings/><con:testStep type="properties" name="Beacon Composite Info DS"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>storeId</con:name><con:value>2799</con:value></con:property><con:property><con:name>locationId</con:name><con:value>209</con:value></con:property><con:property><con:name>Ignore</con:name><con:value/></con:property></con:properties></con:config></con:testStep><con:testStep type="restrequest" name="Beacon Composite Info" id="03e92c67-4230-4150-9420-a9c0e67c5938"><con:settings/><con:config service="http://www.tgtappdata.com" resourcePath="/v1/beacon/composite/{storeId}/{locationId}" methodName="Beacon Composite Info" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Beacon Composite Info" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://www.tgtappdata.com</con:endpoint><con:request/><con:originalUri>http://www.tgtappdata.com/v1/beacon/composite/1375/100</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
   <con:entry key="locationId" value="${Beacon Composite Info DS#locationId}"/>
   <con:entry key="storeId" value="${Beacon Composite Info DS#storeId}"/>
@@ -85,6 +85,7 @@ public void validate_Populated_Response_Values( String var_Service, String var_B
 //=====================================================================================
 {
 	String testResult, URL, JSONdata;
+	Boolean blnContinue;
 	String title = "",
 		  dpci = "",
 	       tcin = "",
@@ -146,6 +147,7 @@ public void validate_Populated_Response_Values( String var_Service, String var_B
 	{
 		for( iArrayColumnIndex = 0; iArrayColumnIndex < arrColumns.length; iArrayColumnIndex++ )
 		{
+			blnContinue = true;
 			varColumn = arrColumns[iArrayColumnIndex]
 			varParams = arrServiceValues[iArrayIndex]
 			arrParams = varParams.split(",")
@@ -170,127 +172,143 @@ public void validate_Populated_Response_Values( String var_Service, String var_B
 		}
 		if( Ignore != "Y" )
 		{
+			//JOptionPane.showMessageDialog( null, "StoreID = " + StoreID + " LocationID = " + LocationID );
 			//-----------------
 			// Collect Response
 			//-----------------
-			testRunner.runTestStepByName(var_Service);
-			Response = testRunner.testCase.testSteps[ var_Service ].testRequest.response.contentAsString
-			//--------------------------
-			// Collect Items to validate
-			//--------------------------
-			String var_Items = ReadFile( servicePath + var_Service + "/" + var_Branch + " - nodes to validate.txt" )
-			def arr_Items = var_Items.split(",")
-			Integer int_Index = 0
-			def arr_subItem, var_Element, var_subItem_Type, subItemName, s_subItem, i_subItem, l_subItem
-			//--------------------------------
-			// Split JSON per specified Branch
-			//--------------------------------
-			Object result = new JsonSlurper().parseText( Response )
-			Map jsonResult = (Map) result;
-			List Branches = (List) jsonResult.get(var_Branch);
-			Branches.each 
-			{ 
-				Branch ->
-				//---------------------------------------
-				// Loop through User defined check points
-				//---------------------------------------
-				while(int_Index < arr_Items.length )
+			try
+			{
+				testRunner.runTestStepByName(var_Service);
+				Response = testRunner.testCase.testSteps[ var_Service ].testRequest.response.contentAsString
+				if( Response.indexOf("HTTP Status 404") > 0 )
 				{
-					//-----------------------------------------------------------
-					// Collect Node Type (Integer, String or  List) and Node Name
-					//-----------------------------------------------------------
-					var_Element = arr_Items[int_Index].trim()
-					arr_subItem = var_Element.split("_")
-					var_subItem_Type = arr_subItem[0]
-					subItemName = arr_subItem[1]
-					int_Index = int_Index + 1
-					//-----------------------------------
-					// ignore reporting on specified Node
-					//-----------------------------------
-					if( var_Element[0] != "'" )
-					{
-						Object fieldValue = Branch.get(subItemName)
-						if( subItemName == "title" )
-						{ 
-							title = fieldValue;
-							if( title != null )
-								if( title.indexOf(",") >= 0 )
-	    								title = title.replace( ",", "[COMMA]" );
- 						}	
-						if( subItemName == "dpci" )
-						{ 
-							try
-							{
-								dpci = fieldValue;
-								//URL = "https://api.target.com/products/v3/"+dpci+"?fields=availability,descriptions,ids,images,item_hierarchies,pricing,reviews,in_store_locations&key=wdEUlQIRuEKViqlEZY4kIEGcZZvCSw0X&store_id="+StoreID+"&id_type=DPCI"
-								URL = "https://api.target.com/products/v3/"+dpci+"?fields=availability,reviews,pricing&key=wdEUlQIRuEKViqlEZY4kIEGcZZvCSw0X&store_id="+StoreID+"&id_type=DPCI"
-								lStartTime = getStartTime()
-								JSONdata = URL.toURL().text;
-								lEndTime = getStartTime()
-								lTimeDiff = lEndTime - lStartTime
-								AddTextToFile( servicePath + "Output/Errors/Failure.log", "Time to run URL (" + lTimeDiff + ")", true )
-							}
-							catch(err)
-							{	
-								AddTextToFile( servicePath + "Output/Errors/Failure.log", "{Error Message (" + err.message + "(" + URL + ")", true )
-							}
-						}
-						if( subItemName == "tcin" ) tcin = fieldValue;
-						if( subItemName == "departmentId" ) departmentId = fieldValue;
-						if( subItemName == "storeId" ) storeId = fieldValue;
-						if( subItemName == "cartwheelOffers" ) cartwheelOffers = fieldValue;
-						if( subItemName == "channelAvailabilityCode" ) channelAvailabilityCode = fieldValue;
-						if( subItemName == "onlinePrice" ) onlinePrice = fieldValue;
-						if( subItemName == "onlinePriceText" ) onlinePriceText = fieldValue;
-						if( subItemName == "onlineAvailabilityCode" ) onlineAvailabilityCode = fieldValue;
-						if( subItemName == "storePriceStatusCode" ) storePriceStatusCode = fieldValue;
-						if( subItemName == "currentStorePrice" ) currentStorePrice = fieldValue;
-						if( subItemName == "originalStorePrice" ) originalStorePrice = fieldValue;
-						if( subItemName == "priceCurrency" ) priceCurrency = fieldValue;
-						if( subItemName == "storePromotionExists" ) storePromotionExists = fieldValue;
-						if( subItemName == "storeAvailabilityCode" ) storeAvailabilityCode = fieldValue;
-						if( subItemName == "locations" ) locations = fieldValue;
-						if( subItemName == "averageRating" ) averageRating = fieldValue;
-						if( subItemName == "reviewCount" ) reviewCount = fieldValue;
-						if( subItemName == "categoryId" ) categoryId = fieldValue;
-						if( subItemName == "categoryName" ) categoryName = fieldValue;
-		   			}
-				}	
-			   	testResult = CheckResponseValues( JSONdata, 
-			   							    title,
-										    dpci,
-									         tcin,
-										    departmentId,
-									         storeId,
-										    cartwheelOffers,
-										    channelAvailabilityCode,
-									         onlinePrice,
-									         onlinePriceText,
-									         onlineAvailabilityCode,
-									         storePriceStatusCode,
-									         currentStorePrice,
-									         originalStorePrice,
-									         priceCurrency,
-									         storePromotionExists,
-									         storeAvailabilityCode,
-									         locations,
-									         averageRating,
-									         reviewCount,
-									         categoryId,
-									         categoryName )
-				if( testResult.length() > 0 )
-		   		{
-			   		testResultArray = testResult.split("~")
-					AddTextToFile( servicePath + "Output/Errors/Failure.log", "~Service (" + var_Service + ")", true )
-					AddTextToFile( servicePath + "Output/Errors/Failure.log", "[Store ID (" + StoreID + ") Location ID (" + LocationID + ") dpci (" + dpci + ") title (" + title + ")", true )
-					for( intArrayIndex = 0; intArrayIndex < testResultArray.length; intArrayIndex++)
-					{
-						AddTextToFile( servicePath + "Output/Errors/Failure.log", testResultArray[intArrayIndex], true )
-					}	
-			   	}
-				int_Index = 0;
+					AddTextToFile( servicePath + "Output/Errors/Failure.log", "{StoreID = " + StoreID + " LocationID = " + LocationID + " caused HTTP Status 404 error", true )
+					blnContinue = false;
+				}
 			}
-		}
+			catch(err)
+			{
+					
+			}
+			if( blnContinue == true )
+			{
+				//--------------------------
+				// Collect Items to validate
+				//--------------------------
+				String var_Items = ReadFile( servicePath + var_Service + "/" + var_Branch + " - nodes to validate.txt" )
+				def arr_Items = var_Items.split(",")
+				Integer int_Index = 0
+				def arr_subItem, var_Element, var_subItem_Type, subItemName, s_subItem, i_subItem, l_subItem
+				//--------------------------------
+				// Split JSON per specified Branch
+				//--------------------------------
+				Object result = new JsonSlurper().parseText( Response )
+				Map jsonResult = (Map) result;
+				List Branches = (List) jsonResult.get(var_Branch);
+				Branches.each 
+				{ 
+					Branch ->
+					//---------------------------------------
+					// Loop through User defined check points
+					//---------------------------------------
+					while(int_Index < arr_Items.length )
+					{
+						//-----------------------------------------------------------
+						// Collect Node Type (Integer, String or  List) and Node Name
+						//-----------------------------------------------------------
+						var_Element = arr_Items[int_Index].trim()
+						arr_subItem = var_Element.split("_")
+						var_subItem_Type = arr_subItem[0]
+						subItemName = arr_subItem[1]
+						int_Index = int_Index + 1
+						//-----------------------------------
+						// ignore reporting on specified Node
+						//-----------------------------------
+						if( var_Element[0] != "'" )
+						{
+							Object fieldValue = Branch.get(subItemName)
+							if( subItemName == "title" )
+							{ 
+								title = fieldValue;
+								if( title != null )
+									if( title.indexOf(",") >= 0 )
+	    									title = title.replace( ",", "[COMMA]" );
+ 							}	
+							if( subItemName == "dpci" )
+							{ 
+								try
+								{
+									dpci = fieldValue;
+									//URL = "https://api.target.com/products/v3/"+dpci+"?fields=availability,descriptions,ids,images,item_hierarchies,pricing,reviews,in_store_locations&key=wdEUlQIRuEKViqlEZY4kIEGcZZvCSw0X&store_id="+StoreID+"&id_type=DPCI"
+									URL = "https://api.target.com/products/v3/"+dpci+"?fields=availability,reviews,pricing&key=wdEUlQIRuEKViqlEZY4kIEGcZZvCSw0X&store_id="+StoreID+"&id_type=DPCI"
+									lStartTime = getStartTime()
+									JSONdata = URL.toURL().text;
+									lEndTime = getStartTime()
+									lTimeDiff = lEndTime - lStartTime
+									AddTextToFile( servicePath + "Output/Errors/Failure.log", "Time to run URL (" + lTimeDiff + ")", true )
+								}
+								catch(err)
+								{	
+									AddTextToFile( servicePath + "Output/Errors/Failure.log", "{Error Message (" + err.message + "(" + URL + ")", true )
+								}
+							}
+							if( subItemName == "tcin" ) tcin = fieldValue;
+							if( subItemName == "departmentId" ) departmentId = fieldValue;
+							if( subItemName == "storeId" ) storeId = fieldValue;
+							if( subItemName == "cartwheelOffers" ) cartwheelOffers = fieldValue;
+							if( subItemName == "channelAvailabilityCode" ) channelAvailabilityCode = fieldValue;
+							if( subItemName == "onlinePrice" ) onlinePrice = fieldValue;
+							if( subItemName == "onlinePriceText" ) onlinePriceText = fieldValue;
+							if( subItemName == "onlineAvailabilityCode" ) onlineAvailabilityCode = fieldValue;
+							if( subItemName == "storePriceStatusCode" ) storePriceStatusCode = fieldValue;
+							if( subItemName == "currentStorePrice" ) currentStorePrice = fieldValue;
+							if( subItemName == "originalStorePrice" ) originalStorePrice = fieldValue;
+							if( subItemName == "priceCurrency" ) priceCurrency = fieldValue;
+							if( subItemName == "storePromotionExists" ) storePromotionExists = fieldValue;
+							if( subItemName == "storeAvailabilityCode" ) storeAvailabilityCode = fieldValue;
+							if( subItemName == "locations" ) locations = fieldValue;
+							if( subItemName == "averageRating" ) averageRating = fieldValue;
+							if( subItemName == "reviewCount" ) reviewCount = fieldValue;
+							if( subItemName == "categoryId" ) categoryId = fieldValue;
+							if( subItemName == "categoryName" ) categoryName = fieldValue;
+			   			}
+					}	
+				   	testResult = CheckResponseValues( JSONdata, 
+				   							    title,	
+										    	    dpci,
+									              tcin,
+										         departmentId,
+									              storeId,
+										         cartwheelOffers,
+										    	    channelAvailabilityCode,
+									              onlinePrice,
+									         	    onlinePriceText,
+									         	    onlineAvailabilityCode,
+									         	    storePriceStatusCode,
+									              currentStorePrice,
+									              originalStorePrice,
+									              priceCurrency,
+									              storePromotionExists,
+									              storeAvailabilityCode,
+									              locations,
+									              averageRating,
+									              reviewCount,
+									              categoryId,
+									              categoryName )
+					if( testResult.length() > 0 )
+		   			{
+			   			testResultArray = testResult.split("~")
+						AddTextToFile( servicePath + "Output/Errors/Failure.log", "~Service (" + var_Service + ")", true )
+						AddTextToFile( servicePath + "Output/Errors/Failure.log", "[Store ID (" + StoreID + ") Location ID (" + LocationID + ") dpci (" + dpci + ") title (" + title + ")", true )
+						for( intArrayIndex = 0; intArrayIndex < testResultArray.length; intArrayIndex++)
+						{
+							AddTextToFile( servicePath + "Output/Errors/Failure.log", testResultArray[intArrayIndex], true )
+						}	
+				   	}
+					int_Index = 0;
+				}
+			}
+		}	
 	}
 	lTestEndTime = getStartTime();
 	lTestTimeDiff = lTestEndTime - lTestStartTime  

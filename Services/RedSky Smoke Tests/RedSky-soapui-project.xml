@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project activeEnvironment="Default" name="RedSky Services" soapui-version="5.0.0" abortOnError="false" runType="SEQUENTIAL" resourceRoot="" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:testSuite name="RedSkey Services"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="RedSkey Services TC" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Run RedSky Services"><con:settings/><con:config><script><![CDATA[import javax.swing.*;
+import com.eviware.soapui.support.*
+import groovy.json.JsonSlurper
+
+servicePath = "/jenkins/Services/"
+//servicePath = "C:/Target Automation/Services/"
+
+String strRedSkyServices = ReadFile( servicePath + "RedSky Service Names.txt" )
+String strRedSkyService
+
+String [] arrRedSkyServices = strRedSkyServices.split(",")
+Integer intRedSkyServicesIndex
+
+String filename, report, logPath
+
+WebServiceProps = testRunner.testCase.getTestStepByName( "Properties" );
+//------------------------------------------------------------------------------------------------------------
+for( intRedSkyServicesIndex = 0; intRedSkyServicesIndex < arrRedSkyServices.length; intRedSkyServicesIndex++ )
+//------------------------------------------------------------------------------------------------------------
+{
+	strRedSkyService = arrRedSkyServices[intRedSkyServicesIndex]
+	if( strRedSkyService[0] != "-")
+	{
+		WebServiceProps.setPropertyValue( "RedSky Service Name", strRedSkyService );
+		//JOptionPane.showMessageDialog( null, strRedSkyService );
+		testRunner.runTestStepByName("RedSky Service");
+	}	
+}
+//------------------------------------------------------------------------------------------------------------
+for( intRedSkyServicesIndex = 0; intRedSkyServicesIndex < arrRedSkyServices.length; intRedSkyServicesIndex++ )
+//------------------------------------------------------------------------------------------------------------
+{
+	strRedSkyService = arrRedSkyServices[intRedSkyServicesIndex]
+	logPath = servicePath + "Output/Logs/"
+	filename = logPath + strRedSkyService + " Report.log" 
+
+	File f = new File( filename );
+	if(f.exists()){
+		//JOptionPane.showMessageDialog( null, filename + " exists" );
+		String MainLogfilename = logPath + "All_Logs.html"
+		String fileContent = ReadFile( filename )
+		
+		String [] arrValues = fileContent.split("`")
+		varLines = ""
+		if( fileContent.length() > 0 )
+		{
+			for( intArrayIndex = 0; intArrayIndex < arrValues.length; intArrayIndex++ )
+			{
+				varLine = arrValues[intArrayIndex]
+				if( varLine[0] == "," )
+				{
+					varLine = varLine.substring(1, varLine.length() )	
+				}
+				//JOptionPane.showMessageDialog( null, varLine );
+				firstChar = varLine[0]
+				if( firstChar == "~" ) varLines = varLines + "<hr>";
+				if( firstChar == "~" || firstChar == "(" || firstChar == "[" || firstChar == "{" )
+				{
+					varLine = varLine.substring( 1, varLine.length() );
+				}
+				switch(firstChar)
+				{
+					case "~":	varLine = "<a style='font-family:Candara;font-size:20px;color:Orange;'>" + varLine + "</a><br>"; break;
+					case "(":	varLine = "<a style='font-family:Candara;font-size:15px;color:blue;'>" + varLine + "</a><br>"; break; 
+					case "[":	varLine = "<a style='font-family:Candara;font-size:15px;color:purple;'>" + varLine + "</a><br>"; break;
+					case "{":	varLine = "<a style='font-family:Candara;font-size:18px;color:red;'>" + varLine + "</a><br>"; break;
+					default: varLine = "<a style='font-family:Candara;font-size:15px;color:#005A1A;'>" + varLine + "</a><br>"; break;
+				}
+				if( varLine.indexOf("[COMMA]") >= 0 )
+					varLine = varLine.replace( "[COMMA]", "," );
+				varLines = varLines + varLine
+			}
+			AddTextToFile( MainLogfilename, varLines, true )
+		}
+	}
+}			
+//===========================================
+public static String ReadFile( String sFile )
+//===========================================
+{
+    	File rfile = new File(sFile); 
+    	BufferedReader reader = null; 
+	reader = new BufferedReader(new FileReader(rfile));
+	
+	String sLine, var_Lines, arr_Lines
+	var_Lines = ""
+    	sLine = reader.readLine()
+  	while ( sLine != null ) 
+    	{
+	    	var_Lines = var_Lines + sLine + ","
+	    	sLine = reader.readLine()
+	} 
+	var_Lines = var_Lines.substring(0, var_Lines.length() - 1 )
+	return var_Lines 
+}
+//===========================================================================
+public static void AddTextToFile( String sFile, String sText, boolean bAppend )
+//===========================================================================
+{
+    	FileWriter fstream = new FileWriter( sFile, bAppend );
+     BufferedWriter out = new BufferedWriter( fstream );
+     out.write(sText);
+     out.newLine();   
+     out.close();
+}
+
+]]></script></con:config></con:testStep><con:testStep type="properties" name="Properties"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>Ignore</con:name><con:value/></con:property><con:property><con:name>URL</con:name><con:value>http://www.tgtappdata.com/v1/beacon/composite/1375/100?min=2&amp;limit=10</con:value></con:property><con:property><con:name>Params</con:name><con:value/></con:property><con:property><con:name>RedSky Service Name</con:name><con:value>Beacon Composite Info</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="groovy" name="RedSky Service"><con:settings/><con:config><script>import javax.swing.*;
+import com.eviware.soapui.support.*
+import groovy.json.JsonSlurper
+
+String Ignore, URL, Params, JSONdata;
+servicePath = "/jenkins/Services/"
+//servicePath = "C:/Target Automation/Services/"
+
+WebServiceProps = testRunner.testCase.getTestStepByName( "Properties" );
+String RedSkyServiceName = WebServiceProps.getPropertyValue( "RedSky Service Name" );
+String varLines,varLine
+
+varLines = copyFileToArray( servicePath + "RedSky Services.txt", RedSkyServiceName )
+//JOptionPane.showMessageDialog( null, "varLines: " + varLines );
+
+String [] testResultArray;	
+String [] arrLines = varLines.split("~")
+String [] arrColumns;
+String [] arrParams;
+String [] arrServiceValues;
+		
+Integer iArrayColumnIndex;
+String varColumns, varColumn;
+String varValues, varValue; 
+String varParams, varParam;
+varValues = ""
+
+//---------------------------
+// Collect Columns and Values
+//---------------------------
+for( iArrayIndex = 0; iArrayIndex &lt; arrLines.length-1; iArrayIndex++ )
+{
+	varValue = arrLines[iArrayIndex]	
+	if( iArrayIndex == 0 ) arrColumns = varValue.split("`");
+	else if( iArrayIndex > 0) varValues = varValues + varValue + "~";
+}
+varValues = varValues.substring(0, varValues.length() - 1 )
+arrServiceValues = varValues.split("~");
+//--------------------
+// Populate Parameters
+//--------------------
+String filename, report, logPath
+
+logPath = servicePath + "Output/Logs/"
+filename = logPath + RedSkyServiceName + " Report.log" 
+//JOptionPane.showMessageDialog( null, "filename: " + filename );
+//Boolean fileSuccessfullyDeleted = new File(filename).delete()
+//---------------------------------------------------------------------------------------		
+for( iArrayIndex = 0; iArrayIndex &lt; arrServiceValues.length; iArrayIndex++ )
+{
+	for( iArrayColumnIndex = 0; iArrayColumnIndex &lt; arrColumns.length-1; iArrayColumnIndex++ )
+	{
+		varColumn = arrColumns[iArrayColumnIndex]
+		varParams = arrServiceValues[iArrayIndex]
+		arrParams = varParams.split("`")
+		varParam = arrParams[iArrayColumnIndex]
+		varParam = varParam.trim();
+		//JOptionPane.showMessageDialog( null, "varColumn: {" + varColumn + "}\n\nvarParam: {" + varParam + "}" );
+		switch(varColumn)
+		{
+			case "Ignore":
+				WebServiceProps.setPropertyValue( "Ignore", varParam );
+				Ignore = WebServiceProps.getPropertyValue( "Ignore" );
+				break;
+			case "URL":
+				WebServiceProps.setPropertyValue( "URL", varParam );
+				URL = WebServiceProps.getPropertyValue( "URL" );
+				break;
+			case "Params":
+				WebServiceProps.setPropertyValue( "Params", varParam );
+				Params = WebServiceProps.getPropertyValue( "Params" );
+				break;
+		}
+	}
+	if( Ignore != "Y" )
+	{
+		try
+		{
+			JSONdata = URL.toURL().text;
+			report = "RedSkyServiceName: {" + RedSkyServiceName + "}\n\nURL: {" + URL + "}\n\n" + JSONdata;
+			//JOptionPane.showMessageDialog( null, report );
+			AddTextToFile( filename, "~RedSkyServiceName: {" + RedSkyServiceName + "}`", true )
+			AddTextToFile( filename, "[URL: {" + URL + "}`", true )
+			AddTextToFile( filename, "JSONdata: {" + JSONdata + "}`", true )
+		}
+		catch(err)
+		{
+			AddTextToFile( filename, "~Error Message: {" + err.message + "}`", true )
+		}
+	}
+}
+//---------------------------------------------------------------------------------------		
+//==================================================================
+public static String copyFileToArray( String sFile, String service )
+//==================================================================
+{
+	File rfile = new File(sFile); 
+    	BufferedReader reader = null; 
+	reader = new BufferedReader(new FileReader(rfile));
+	String sLine, varLines, arrLines
+	Boolean bCollect = false
+	varLines = ""
+    	sLine = reader.readLine()
+    	sLine = sLine.trim();
+  	while ( sLine != null ){
+    		if( bCollect == true ) varLines = varLines + sLine + "~";
+    		if( sLine == service ) bCollect = true;
+    		if( bCollect == true &amp;&amp; sLine[0] == "-" ) {bCollect = false;	break;}
+	    	sLine = reader.readLine();
+	    	sLine = sLine.trim();
+	} 
+	varLines = varLines.substring(0, varLines.length() - 1 )
+
+	return varLines; 
+}
+//===========================================================================
+public static void AddTextToFile( String sFile, String sText, boolean bAppend )
+//===========================================================================
+{
+    	FileWriter fstream = new FileWriter( sFile, bAppend );
+     BufferedWriter out = new BufferedWriter( fstream );
+     out.write(sText);
+     out.newLine();   
+     out.close();
+}
+
+ 
+
+
+</script></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/></con:soapui-project>

@@ -1,0 +1,11 @@
+~Error Message: {http://www-stage.tgtappdata.com/v1/beacon/composite/1375/1}`
+~RedSkyServiceName: {Beacon Composite Info}`
+[URL: {http://www-stage.tgtappdata.com/v1/beacon/composite/1375/100}`
+JSONdata: {{"department":"none","backgroundNotificationCopy":"Welcome!","heroCard":{},"products":[],"range":15}}`
+~Error Message: {http://www.tgtappdata.com/v1/beacon/composite/1375/1}`
+~RedSkyServiceName: {Beacon Composite Info}`
+[URL: {http://www.tgtappdata.com/v1/beacon/composite/1375/100}`
+JSONdata: {{"department":"none","backgroundNotificationCopy":"Welcome! Don't forget items on your shopping list.","heroCard":{},"products":[],"range":15}}`
+~RedSkyServiceName: {Beacon Composite Info}`
+[URL: {http://www.tgtappdata.com/v1/beacon/composite/1375/100?min=2&limit=10}`
+JSONdata: {{"department":"none","backgroundNotificationCopy":"Welcome! Don't forget items on your shopping list.","heroCard":{},"products":[],"range":15}}`

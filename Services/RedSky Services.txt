@@ -1,0 +1,57 @@
+############################################
+Beacon Composite Info
+Ignore`URL`Params
+`http://www-stage.tgtappdata.com/v1/beacon/composite/1375/1`
+`http://www-stage.tgtappdata.com/v1/beacon/composite/1375/100`
+`http://www.tgtappdata.com/v1/beacon/composite/1375/1`
+`http://www.tgtappdata.com/v1/beacon/composite/1375/100`
+`http://www.tgtappdata.com/v1/beacon/composite/1375/100?min=2&limit=10`
+--------------------------------------------
+############################################
+Get Nearby
+Ignore`URL`Params
+`http://www.tgtappdata.com/v2/stores/nearby/duluth`
+`http://www.tgtappdata.com/v2/stores/nearby/Eden%20Prairie`
+`http://www.tgtappdata.com/v2/stores/nearby/46.808391,-92.16745`
+`http://www-stage.tgtappdata.com/v2/stores/nearby/duluth?limit=1`
+`http://www.tgtappdata.com/v2/stores/nearby/Eden%20Prairie?limit=1`
+`http://www.tgtappdata.com/v2/stores/nearby/46.808391,-92.16745?range=100`
+--------------------------------------------
+############################################
+QR Code
+Ignore`URL`Params
+`http://www-stage.tgtappdata.com/v1/QRCode?D=Wiki%20Page%20Example&W=200&H=200`
+--------------------------------------------
+############################################
+Product Detail Page 
+Ignore`URL`Params
+`http://www-stage.tgtappdata.com/v0/products/pdp/TCIN/15222059.json`
+`http://www-stage.tgtappdata.com/v0/products/pdp/DPCI/082-09-0080.json`
+`http://www-stage.tgtappdata.com/v0/products/pdp/BARCODE/087876206941.json`
+--------------------------------------------
+############################################
+RedSky Stores Service 
+Ignore`URL`Params
+`http://www-stage.tgtappdata.com/v2/stores/nearby/44.97,-93.27`
+`http://www-stage.tgtappdata.com/v2/stores/nearby/900+Nicollet+Mall%2C+Minneapolis%2C+MN+55403-2530`
+`http://www-stage.tgtappdata.com/v2/stores/nearby/44.97,-93.27?range=100&limit=2&locale=en-US`
+`http://www-stage.tgtappdata.com/v2/stores/nearby/seattle?capabilities=optical`
+--------------------------------------------
+############################################
+Search Listing Page (SLP) / Product Listing Page (PLP)
+Ignore`URL`Params
+`http://www-stage.tgtappdata.com/v1/products/list/4?searchTerm=lego+star+wars`
+`http://www-stage.tgtappdata.com/v1/products/list/4?categoryId=4694`
+`http://www-stage.tgtappdata.com/v1/products/list/4?endecaId=5ewil`
+`http://www.tgtappdata.com/v1/products/list/4?searchTerm=lego+star+wars`
+`http://www.tgtappdata.com/v1/products/list/4?categoryId=4694`
+`http://www.tgtappdata.com/v1/products/list/4?endecaId=5ewil`
+--------------------------------------------
+############################################
+RedSky Recipe Service
+Ignore`URL`Params
+`http://www.tgtappdata.com/v3/recipes/group/pilot`
+`http://www-stage.tgtappdata.com/v3/recipes/group/pilot`
+--------------------------------------------
+
+
